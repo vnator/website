@@ -13,7 +13,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stylelint": "stylelint src/**/*.css",
+    "eslint": "eslint -c .eslintrc --ignore-path .eslintignore '**/*.{js,jsx}' --quiet",
+    "eslint:fix": "eslint -c .eslintrc --ext .js --ext .jsx --ignore-path .eslintignore --fix '**/*.{js,jsx}' --quiet"
   },
   "eslintConfig": {
     "extends": "react-app"
