@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { addLocaleData, IntlProvider } from 'react-intl';
 import pt from 'react-intl/locale-data/pt';
 import en from 'react-intl/locale-data/en';
@@ -20,7 +21,9 @@ const locale =
 
 ReactDOM.render(
   <IntlProvider locale={locale} messages={flattenMessages(messages[locale])}>
-    <Main />
+    <Router>
+      <Main />
+    </Router>
   </IntlProvider>,
   document.getElementById('root'),
 );

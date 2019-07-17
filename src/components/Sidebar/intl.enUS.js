@@ -1,5 +1,8 @@
 const sidebar_enUS = {
-  title: 'Sidebar component',
+  home: 'Home',
+  about: 'About',
+  tech: 'Tech',
+  contact: 'Contact',
 };
 
 export { sidebar_enUS };

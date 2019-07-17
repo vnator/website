@@ -1,5 +1,8 @@
 const sidebar_ptBR = {
-  title: 'Sidebar component',
+  home: 'Inicion',
+  about: 'Sobre',
+  tech: 'Tecnologia',
+  contact: 'Contato',
 };
 
 export { sidebar_ptBR };
