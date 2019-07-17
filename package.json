@@ -5,13 +5,18 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-intl": "^2.9.0",
+    "react-router": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stylelint": "stylelint src/**/*.css",
+    "eslint": "eslint -c .eslintrc --ignore-path .eslintignore '**/*.{js,jsx}' --quiet",
+    "eslint:fix": "eslint -c .eslintrc --ext .js --ext .jsx --ignore-path .eslintignore --fix '**/*.{js,jsx}' --quiet"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +32,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.18.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-declaration-use-variable": "^1.7.0",
+    "stylelint-prettier": "^1.1.1"
   }
 }
