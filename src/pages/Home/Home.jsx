@@ -1,7 +1,16 @@
 import React from 'react';
+import { injectIntl, intlShape } from 'react-intl';
 
 import style from './Home.module.css';
 
-const Home = () => <div className={style.Home}>Home</div>;
+let Home = ({ intl: { formatMessage } }) => (
+  <div className={style.Home}>{formatMessage({ id: 'home.title' })}</div>
+);
+
+Home = injectIntl(Home);
+
+Home.propTypes = {
+  intl: intlShape.isRequired,
+};
 
 export { Home };
