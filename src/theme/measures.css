@@ -1,0 +1,24 @@
+:root {
+  /* Margins and Paddings */
+  --space-small: 3px;
+  --space-base: 8px;
+  --space-large: 20px;
+  --space-extra: 50px;
+
+  /* Border width */
+  --border-small: 1px;
+  --border-base: 3px;
+  --border-large: 6x;
+
+  /* Container width */
+  --width: 88vw;
+  --width-full: 1600px;
+  --width-tablet: 92vw;
+  --width-mobile: 96vw;
+
+  /* Border radius */
+  --radius-small: 2px;
+  --radius-base: 6px;
+  --radius-large: 16px;
+  --radius-extra: 50%;
+}
