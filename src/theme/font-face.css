@@ -1,0 +1,25 @@
+/* TITLE */
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+      url('../fonts/lato-regular-webfont.woff') format('woff');
+  font-weight: var(--weight-regular);
+  font-style: var(--weight-regular);
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+      url('../fonts/lato-bold-webfont.woff') format('woff');
+  font-weight: var(--weight-bold);
+  font-style: var(--weight-bold);
+}
+
+/* CODE */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/firacode-regular-webfont.woff') format('woff'),
+      url('../fonts/firacode-regular-webfont.woff2') format('woff2');
+  font-weight: var(--weight-regular);
+  font-style: var(--weight-regular);
+}
