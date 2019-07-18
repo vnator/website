@@ -15,6 +15,7 @@ const ROLE = Object.freeze({
   IMG: 'img',
   FORM: 'form',
   NONE: 'none',
+  LINK: 'link',
 });
 
 export { ID, ROLE };
