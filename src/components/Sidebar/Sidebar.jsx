@@ -5,32 +5,43 @@ import { injectIntl, intlShape } from 'react-intl';
 import { routes } from '../../config/routes';
 
 import style from './Sidebar.module.css';
+import { ID, ROLE } from '../../constants/elementAttr';
 
 let Sidebar = ({ intl: { formatMessage } }) => (
-  <div className={style.Sidebar}>
-    <ul>
-      <li>
-        <Link to={routes.home}>{formatMessage({ id: 'sidebar.home' })}</Link>
+  <nav role={ROLE.NAVIGATION} className={style.Sidebar}>
+    <ul
+      className={style.menu}
+      id={ID.MENU}
+      role={ROLE.MENU}
+      aria-labelledby={ID.MENU_OPEN}>
+      <li role={ROLE.NONE} className={style.menuItem}>
+        <Link role={ROLE.MENU_ITEM} to={routes.home}>
+          {formatMessage({ id: 'sidebar.home' })}
+        </Link>
       </li>
-      <li>
-        <Link to={routes.about}>{formatMessage({ id: 'sidebar.about' })}</Link>
+      <li role={ROLE.NONE} className={style.menuItem}>
+        <Link role={ROLE.MENU_ITEM} to={routes.about}>
+          {formatMessage({ id: 'sidebar.about' })}
+        </Link>
       </li>
-      <li>
-        <Link to={routes.tech}>{formatMessage({ id: 'sidebar.tech' })}</Link>
+      <li role={ROLE.NONE} className={style.menuItem}>
+        <Link role={ROLE.MENU_ITEM} to={routes.tech}>
+          {formatMessage({ id: 'sidebar.tech' })}
+        </Link>
       </li>
-      <li>
-        <Link to={routes.contact}>
+      <li role={ROLE.NONE} className={style.menuItem}>
+        <Link role={ROLE.MENU_ITEM} to={routes.contact}>
           {formatMessage({ id: 'sidebar.contact' })}
         </Link>
       </li>
     </ul>
-  </div>
+  </nav>
 );
-
-Sidebar = injectIntl(Sidebar);
 
 Sidebar.propTypes = {
   intl: intlShape.isRequired,
 };
+
+Sidebar = injectIntl(Sidebar);
 
 export { Sidebar };
