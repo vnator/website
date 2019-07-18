@@ -2,15 +2,30 @@ import React from 'react';
 import { injectIntl, intlShape } from 'react-intl';
 
 import style from './Header.module.css';
+import { Logo } from '../Logo/Logo';
+import { ID, ROLE } from '../../constants/elementAttr';
 
 let Header = ({ intl: { formatMessage } }) => (
-  <div className={style.Header}>{formatMessage({ id: 'header.title' })}</div>
-);
+  <header className={style.Header}>
+    <h1 className={style.pageTitle} role={ROLE.HEADING} aria-level={1}>
+      <Logo width="auto" height="120px" />
+    </h1>
 
-Header = injectIntl(Header);
+    <button
+      className={`_reset ${style.button}`}
+      id={ID.MENU_OPEN}
+      aria-haspopup={true}
+      aria-expanded={true}
+      aria-controls={ID.MENU}>
+      open Sidebar
+    </button>
+  </header>
+);
 
 Header.propTypes = {
   intl: intlShape.isRequired,
 };
+
+Header = injectIntl(Header);
 
 export { Header };
