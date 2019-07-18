@@ -4,7 +4,7 @@
   --sky: #2ec4b6;
   --cloud: #efffe9;
   --ocean: #034173;
-  --ocean-dark: #011627;
+  --deep-ocean: #011627;
 
   /* Black and whites */
   --glass: transparent;
@@ -25,7 +25,7 @@
   --text: #3c4954;
   --text: #2c3944;
   --title: var(--ocean);
-  --sub-title: var(--ocean-dark);
+  --sub-title: var(--deep-ocean);
   --quote: #6c7984;
 
   /* User Colors */

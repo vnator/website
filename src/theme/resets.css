@@ -1,18 +1,18 @@
-a.__reset {
+a._reset {
   color: var(--text);
   text-decoration: none;
 }
 
-a.__reset:hover {
+a._reset:hover {
   color: var(--text);
 }
 
-ul.__reset {
+ul._reset {
   list-style: none;
   padding: 0;
 }
 
-button.__reset {
+button._reset {
   background: var(--glass);
   color: var(--text);
   border: 0;
@@ -21,7 +21,7 @@ button.__reset {
   outline: 0;
 }
 
-button:hover.__reset {
+button:hover._reset {
   border: 0;
   outline: 0;
 }
