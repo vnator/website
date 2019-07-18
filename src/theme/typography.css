@@ -1,0 +1,23 @@
+:root {
+  --font-title: 'Lato', sans-serif;
+  --font-text: Helvetica, Arial, sans-serif;
+  --code: 'Fira Code', monospace;
+
+  /* font size */
+  --title: 3rem;
+  --subtitle: 1.75rem;
+
+  --body: 0.925;
+  --quote: 0.875rem;
+  --caption: 0.75rem;
+
+  /* letter-spacing:  */
+  --letters-small: 0;
+  --letters-base: 0.25rem;
+  --letters-large: 0.4rem;
+  --letters-extra: 0.5rem;
+
+  /* font weight */
+  --weight-bold: 700;
+  --weight-medium: 500;
+}

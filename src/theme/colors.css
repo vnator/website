@@ -1,0 +1,43 @@
+:root {
+  /* Brand Colors */
+  --sun: #e71d36;
+  --sky: #2ec4b6;
+  --cloud: #efffe9;
+  --ocean: #034173;
+  --ocean-dark: #011627;
+
+  /* Black and whites */
+  --glass: transparent;
+
+  --black-full: #000;
+  --black-fume: rgba(0, 0, 0, 0.87);
+  --black-half: rgba(0, 0, 0, 0.57);
+  --black-smoke: rgba(0, 0, 0, 0.22);
+  --black-glass: rgba(0, 0, 0, 0.07);
+
+  --white-full: #fff;
+  --white-fume: rgba(255, 255, 255, 0.87);
+  --white-half: rgba(255, 255, 255, 0.57);
+  --white-smoke: rgba(255, 255, 255, 0.22);
+  --white-glass: rgba(255, 255, 255, 0.07);
+
+  /* Text Colors */
+  --text: #3c4954;
+  --text: #2c3944;
+  --title: var(--ocean);
+  --sub-title: var(--ocean-dark);
+  --quote: #6c7984;
+
+  /* User Colors */
+  --info: #224eb4;
+  --info-bg: #b5c1ff;
+
+  --success: #16946c;
+  --success-bg: #a2eec6;
+
+  --error: #b51d18;
+  --error-bg: #c1abaa;
+
+  --warn: #ffa800;
+  --warn-bg: #ffeabf;
+}
