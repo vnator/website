@@ -11,6 +11,8 @@ import { flattenMessages } from './config/flattenMessages';
 import * as serviceWorker from './config/serviceWorker';
 import { Main } from './components/Main/Main';
 
+import './theme/index.css';
+
 addLocaleData([...pt, ...en]);
 
 const locale =
