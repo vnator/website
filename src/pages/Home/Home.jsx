@@ -23,43 +23,49 @@ let Home = ({ intl: { formatMessage } }) => (
         <Paragraph>{formatMessage({ id: 'home.banner.paragraph' })}</Paragraph>
       </div>
     </div>
-    <article role={ROLE.MAIN} className={style.grid}>
+    <main role={ROLE.MAIN} className={style.grid}>
       <header className={style.header}>
         <Title>{formatMessage({ id: 'home.grid.title' })}</Title>
       </header>
 
       <div className={style.list}>
-        <div className={style.card}>
-          <span>icon analyze</span>
-          <SubTitle>
-            {formatMessage({ id: 'home.grid.analyze.title' })}
-          </SubTitle>
+        <article className={style.card}>
+          <header>
+            <span>icon analyze</span>
+            <SubTitle>
+              {formatMessage({ id: 'home.grid.analyze.title' })}
+            </SubTitle>
+          </header>
           <Paragraph>
             {formatMessage({ id: 'home.grid.analyze.paragraph' })}
           </Paragraph>
-        </div>
+        </article>
 
-        <div className={style.card}>
-          <span>icon architect</span>
-          <SubTitle>
-            {formatMessage({ id: 'home.grid.architect.title' })}
-          </SubTitle>
+        <article className={style.card}>
+          <header>
+            <span>icon architect</span>
+            <SubTitle>
+              {formatMessage({ id: 'home.grid.architect.title' })}
+            </SubTitle>
+          </header>
           <Paragraph>
             {formatMessage({ id: 'home.grid.architect.paragraph' })}
           </Paragraph>
-        </div>
+        </article>
 
-        <div className={style.card}>
-          <span>icon develolopment</span>
-          <SubTitle>
-            {formatMessage({ id: 'home.grid.development.title' })}
-          </SubTitle>
+        <article className={style.card}>
+          <header>
+            <span>icon develolopment</span>
+            <SubTitle>
+              {formatMessage({ id: 'home.grid.development.title' })}
+            </SubTitle>
+          </header>
           <Paragraph>
             {formatMessage({ id: 'home.grid.development.paragraph' })}
           </Paragraph>
-        </div>
+        </article>
       </div>
-    </article>
+    </main>
   </div>
 );
 
