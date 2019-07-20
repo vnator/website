@@ -16,6 +16,7 @@ let Header = ({ intl: { formatMessage } }) => (
       id={ID.MENU_OPEN}
       aria-haspopup={true}
       aria-expanded={true}
+      aria-label={formatMessage({ id: 'header.button' })}
       aria-controls={ID.MENU}>
       open Sidebar
     </button>
