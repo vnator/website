@@ -20,17 +20,26 @@ let Sidebar = ({ intl: { formatMessage } }) => (
         </Link>
       </li>
       <li role={ROLE.NONE} className={style.menuItem}>
-        <Link role={ROLE.MENU_ITEM} to={routes.about}>
+        <Link
+          role={ROLE.MENU_ITEM}
+          rel={formatMessage({ id: 'sidebar.about' })}
+          to={routes.about}>
           {formatMessage({ id: 'sidebar.about' })}
         </Link>
       </li>
       <li role={ROLE.NONE} className={style.menuItem}>
-        <Link role={ROLE.MENU_ITEM} to={routes.tech}>
+        <Link
+          role={ROLE.MENU_ITEM}
+          rel={formatMessage({ id: 'sidebar.tech' })}
+          to={routes.tech}>
           {formatMessage({ id: 'sidebar.tech' })}
         </Link>
       </li>
       <li role={ROLE.NONE} className={style.menuItem}>
-        <Link role={ROLE.MENU_ITEM} to={routes.contact}>
+        <Link
+          role={ROLE.MENU_ITEM}
+          rel={formatMessage({ id: 'sidebar.contact' })}
+          to={routes.contact}>
           {formatMessage({ id: 'sidebar.contact' })}
         </Link>
       </li>
