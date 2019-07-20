@@ -1,8 +1,8 @@
 const home_ptBR = {
   banner: {
-    title: 'artesoes de software',
+    title: 'Artesoes de Software',
     paragraph:
-      'Analise, Arquitetura e Desenvolvimento de aplicacoes web especializada.',
+      'Análise, Arquitetura e Desenvolvimento de aplicações web especializadas.',
   },
   grid: {
     title:
@@ -10,7 +10,7 @@ const home_ptBR = {
     analyze: {
       title: 'Análise',
       paragraph:
-        'Entender a regra do negócio e seu público alvo para apresentar a melhor solução para desenvolvimento de um produto.',
+        'Entender a regra do negócio e seu público alvo para apresentar a melhor solução para o desenvolvimento de um produto.',
     },
     architect: {
       title: 'Arquitetura',
