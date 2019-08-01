@@ -1,26 +1,26 @@
 const home_enUS = {
   banner: {
-    title: 'software crafters',
+    title: 'Software Crafters',
     paragraph:
       'Analysis, Architecture and Development of specialized web applications.',
   },
   grid: {
     title:
-      'whatever of the project, we will accept the challenge and deliver results.',
+      'independently of the project, we will accept the challenge and give the results.',
     analyze: {
-      title: 'Analyze',
+      title: 'Analysis',
       paragraph:
-        'Understand the business and your target audience to present the best solution for developing a product.',
+        'Understand the business and your target audience to present the best solution to develop a product.',
     },
     architect: {
-      title: 'Architect',
+      title: 'Architecture',
       paragraph:
-        'Design the application for the best solution to reach your goals and for later maintainability.',
+        'To design the application thinking about the best solution to reach your goals and to have a easy maintenance.',
     },
     development: {
       title: 'Development',
       paragraph:
-        'Self-managing, transparent and automated process development.',
+        'Self-managing development, transparent and automated process.',
     },
   },
 };
