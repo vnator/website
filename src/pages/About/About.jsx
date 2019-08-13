@@ -1,10 +1,9 @@
 import React from 'react';
-import style from './About.module.css';
 import { useIntl } from 'react-intl';
 import { Link } from 'react-router-dom';
 
+import style from './About.module.css';
 import { Title } from '../../components/Title/Title';
-import { SubTitle } from '../../components/SubTitle/SubTitle';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
 import { ROLE } from '../../constants/elementAttr';
 import { routes } from '../../config/routes';
@@ -16,7 +15,9 @@ let About = () => {
       <Title>{formatMessage({ id: 'about.title' })}</Title>
       <article className={style.content}>
         <header className={style.header}>
-          <SubTitle>{formatMessage({ id: 'about.profile.title' })}</SubTitle>
+          <Title level={3}>
+            {formatMessage({ id: 'about.profile.title' })}
+          </Title>
         </header>
         <div>
           <Paragraph>
@@ -30,7 +31,7 @@ let About = () => {
 
       <article className={style.content}>
         <header className={style.header}>
-          <SubTitle>{formatMessage({ id: 'about.focus.title' })}</SubTitle>
+          <Title level={3}>{formatMessage({ id: 'about.focus.title' })}</Title>
         </header>
         <div>
           <Paragraph>
@@ -61,9 +62,9 @@ let About = () => {
         <Paragraph>{formatMessage({ id: 'about.values.paragraph' })}</Paragraph>
         <article className={style.content}>
           <header className={style.header}>
-            <SubTitle>
+            <Title level={3}>
               {formatMessage({ id: 'about.values.quest.title' })}
-            </SubTitle>
+            </Title>
           </header>
           <div>
             <Paragraph>
@@ -74,9 +75,9 @@ let About = () => {
 
         <article className={style.content}>
           <header className={style.header}>
-            <SubTitle>
+            <Title level={3}>
               {formatMessage({ id: 'about.values.onus.title' })}
-            </SubTitle>
+            </Title>
           </header>
           <div>
             <Paragraph>
@@ -87,9 +88,9 @@ let About = () => {
 
         <article className={style.content}>
           <header className={style.header}>
-            <SubTitle>
+            <Title level={3}>
               {formatMessage({ id: 'about.values.experience.title' })}
-            </SubTitle>
+            </Title>
           </header>
           <div>
             <Paragraph>
@@ -100,9 +101,9 @@ let About = () => {
 
         <article className={style.content}>
           <header className={style.header}>
-            <SubTitle>
+            <Title level={3}>
               {formatMessage({ id: 'about.values.faith.title' })}
-            </SubTitle>
+            </Title>
           </header>
           <div>
             <Paragraph>

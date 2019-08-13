@@ -4,7 +4,6 @@ import { useIntl } from 'react-intl';
 import style from './Home.module.css';
 import { ROLE } from '../../constants/elementAttr';
 import { Title } from '../../components/Title/Title';
-import { SubTitle } from '../../components/SubTitle/SubTitle';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
 
 const Home = () => {
@@ -36,9 +35,9 @@ const Home = () => {
           <article className={style.card}>
             <header>
               <span>icon analyze</span>
-              <SubTitle>
+              <Title level={3}>
                 {formatMessage({ id: 'home.grid.analyze.title' })}
-              </SubTitle>
+              </Title>
             </header>
             <Paragraph>
               {formatMessage({ id: 'home.grid.analyze.paragraph' })}
@@ -48,9 +47,9 @@ const Home = () => {
           <article className={style.card}>
             <header>
               <span>icon architect</span>
-              <SubTitle>
+              <Title level={3}>
                 {formatMessage({ id: 'home.grid.architect.title' })}
-              </SubTitle>
+              </Title>
             </header>
             <Paragraph>
               {formatMessage({ id: 'home.grid.architect.paragraph' })}
@@ -60,9 +59,9 @@ const Home = () => {
           <article className={style.card}>
             <header>
               <span>icon develolopment</span>
-              <SubTitle>
+              <Title level={3}>
                 {formatMessage({ id: 'home.grid.development.title' })}
-              </SubTitle>
+              </Title>
             </header>
             <Paragraph>
               {formatMessage({ id: 'home.grid.development.paragraph' })}
