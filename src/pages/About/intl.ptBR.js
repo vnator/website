@@ -2,18 +2,20 @@ const about_ptBR = {
   title: 'Sobre nos',
   profile: {
     title: 'Perfil',
-    paragraph_1:
-      "Gostamos de nos definir como 'Artesãos de Software', nao querendo parecer arrogantes, talves pretenciosos mas a intencao é apenas expor a nossa preocupacao com os detalhes no ofício.",
-    paragraph_2:
+    paragraph: {
+      intro: "Gostamos de nos definir como 'Artesãos de Software', nao querendo parecer arrogantes, talves pretenciosos mas a intencao é apenas expor a nossa preocupacao com os detalhes no ofício.",
+      main:
       'Faremos o possivel para que o produto seja analisado, arquitetado e desenvolvido da melhor forma possivel, focamos nos detalhes, ambiente, infra estrutura, padroes e boas praticas, testes e manutenabilidade. Ainda posso acrescentar que faremos tudo isso de forma transparente e organizada demonstrando compromisso com o trabalho.',
+    }
   },
   focus: {
     title: 'Foco',
-    paragraph_1:
-      "Desenvolvemos aplicações web que priorizam a necessidade do cliente e seu produto como ponto chave. Sempre iremos buscar resultados analisando dois critérios, o 1º é: 'qual a melhor forma de se fazer algo', e o 2º é: 'qual o recurso que temos para desenvolver esse algo'(Seja esse recurso, tempo, investimento, mão de obra ou conhecimento). Nada de desperdicios, empreitadas impossíveis que não retornam um produto viável, muito menos trabalho desleixado com soluções inoperantes.",
-    paragraph_2:
-      'Se tiver interesse em saber mais detalhes sobre nosso escopo tecnológico acesse esta',
-    link: 'página',
+    paragraph: {
+      intro: "Desenvolvemos aplicações web que priorizam a necessidade do cliente e seu produto como ponto chave. Sempre iremos buscar resultados analisando dois critérios, o 1º é: 'qual a melhor forma de se fazer algo', e o 2º é: 'qual o recurso que temos para desenvolver esse algo'(Seja esse recurso, tempo, investimento, mão de obra ou conhecimento). Nada de desperdicios, empreitadas impossíveis que não retornam um produto viável, muito menos trabalho desleixado com soluções inoperantes.",
+      main:
+      'Se tiver interesse em saber mais detalhes sobre nosso escopo tecnológico acesse esta {link}',
+      link: 'página',
+    }
   },
   values: {
     title: 'Valores',
