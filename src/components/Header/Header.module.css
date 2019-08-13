@@ -6,3 +6,19 @@
 
 .button {
 }
+
+/* Provisory */
+.inDevelopmentAlert {
+  --rotate: rotateZ(45deg);
+
+  background: var(--warn);
+  padding: var(--space-base);
+  color: var(--white-full);
+  font-family: var(--code);
+  width: 500px;
+  position: fixed;
+  right: -150px;
+  top: 100px;
+  text-align: center;
+  transform: var(--rotate);
+}

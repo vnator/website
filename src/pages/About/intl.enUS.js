@@ -6,14 +6,14 @@ const about_enUS = {
       intro:
         "We like to define ourselves as 'Software Crafters', not wanting to appear arrogant, maybe pretentious but the intention is only to expose our concern with details in the work.",
       main:
-        'We will do our best, analing, designing and developing the product in the best way, focusing on the details of project, in environment, in infrastructure, in standards and best practices, in testing and maintenance. I can still add that we will do all this in a transparent and organized way demonstrating commitment in the work.',
+        'We will do our best, analing, designing and developing the product in the best way, focusing in the infrastructure, in standards and best practices, in testing and maintenance. I can still add that we will do all this in a transparent and organized way demonstrating commitment in the work.',
     },
   },
   focus: {
     title: 'Focus',
     paragraph: {
       intro:
-        "We develop web applications that prioritize customer needs and your product as a main goal. We will always seek results by analyzing two criteria, the first one is: 'what is the best way to do something', and the second one is: 'what is the resource that we have to develop this something' (resource, time, investment, manpower or knowledge). No waste, impossible jobs that do not return a viable product, much less sloppy work with dead solutions.",
+        "We develop web applications with customer needs and your product as a main goal. We will always seek results by analyzing two criteria, the first one is: 'what is the best way to do something', and the second one is: 'what is the resource that we have to develop this something' (resource, time, investment, manpower or knowledge). No waste, impossible jobs that do not return a viable product, much less sloppy work with dead solutions.",
       main:
         'If you are interested in knowing more about our stack of technology, please click <link>here</link>',
     },
@@ -21,7 +21,7 @@ const about_enUS = {
   values: {
     title: 'Values',
     paragraph:
-      'For us, work is a quest, we will take advantage each moment and we will do everything its possible to reach our destination. With this purpose we have four pillars that support our decisions, our disposition and inspiration for the journey.',
+      'For us, work is a adveture, we will take advantage each moment and we will do everything its possible to reach our destination. With this purpose we have four pillars that support our decisions, our disposition and inspiration for this journey.',
     quest: {
       title: 'Quest',
       paragraph:
@@ -35,7 +35,7 @@ const about_enUS = {
     experience: {
       title: 'Experience',
       paragraph:
-        'Perhaps a journey take us the final award, but every journey brings us experience, so we value the experience. We always seek to obtain it, whether by practice or theory, we do not despise its value whether it is obtained by work, study or observation.',
+        'The Experience is the most value thing for us, whether obtained through work, study or observation. So we have an idea that accompanies us with each endeavor, <quote>maybe this journey will have a treasure chest at the end, maybe this final loot will not have such value. But surely this campaign will bring us much of our valuable experience.</quote>',
     },
     faith: {
       title: 'Faith',

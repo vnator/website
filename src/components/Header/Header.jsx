@@ -22,6 +22,8 @@ let Header = () => {
         aria-controls={ID.MENU}>
         open Sidebar
       </button>
+
+      <div className={style.inDevelopmentAlert}>page in development</div>
     </header>
   );
 };

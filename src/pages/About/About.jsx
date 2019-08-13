@@ -94,7 +94,10 @@ let About = () => {
           </header>
           <div>
             <Paragraph>
-              {formatMessage({ id: 'about.values.experience.paragraph' })}
+              {formatMessage(
+                { id: 'about.values.experience.paragraph' },
+                { quote: str => <quote className={style.quote}>{str}</quote> },
+              )}
             </Paragraph>
           </div>
         </article>

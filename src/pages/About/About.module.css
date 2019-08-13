@@ -1,0 +1,8 @@
+.quote {
+  color: var(--quote);
+}
+
+.quote::before,
+.quote::after {
+  content: '"';
+}

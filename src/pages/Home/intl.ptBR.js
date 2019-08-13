@@ -15,12 +15,12 @@ const home_ptBR = {
     architect: {
       title: 'Arquitetura',
       paragraph:
-        'Desenhar a aplicação buscando a melhor solução para alcançar suas metas e para manutenabilidade posterior.',
+        'Desenhar a aplicação buscando a solução ideal para alcançar suas metas e manutenabilidade posterior.',
     },
     development: {
       title: 'Desenvolvimento',
       paragraph:
-        'Desenvolvimento auto gerenciavel, transparente e com processos automatizados.',
+        'Desenvolvimento auto gerenciavel, transparente e com processos automatizados (devOps s2).',
     },
   },
 };

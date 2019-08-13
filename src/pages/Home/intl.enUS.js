@@ -15,12 +15,12 @@ const home_enUS = {
     architect: {
       title: 'Architecture',
       paragraph:
-        'To design the application thinking about the best solution to reach your goals and to have a easy maintenance.',
+        'To design the application thinking about the better way to reach your goals and to have a easy maintenance.',
     },
     development: {
       title: 'Development',
       paragraph:
-        'Self-managing development, transparent and automated process.',
+        'Self-managing development, transparent and automated process (devOps s2).',
     },
   },
 };
