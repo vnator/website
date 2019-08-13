@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { addLocaleData, IntlProvider } from 'react-intl';
-import pt from 'react-intl/locale-data/pt';
-import en from 'react-intl/locale-data/en';
+
+import { IntlProvider } from 'react-intl';
+import '@formatjs/intl-relativetimeformat/polyfill';
+import '@formatjs/intl-relativetimeformat/dist/include-aliases'; // Optional, if you care about edge cases in locale resolution, e.g zh-CN -> zh-Hans-CN
+import '@formatjs/intl-relativetimeformat/dist/locale-data/pt';
+import '@formatjs/intl-relativetimeformat/dist/locale-data/en';
 
 import { messages } from './messages';
 import { flattenMessages } from './config/flattenMessages';
@@ -12,8 +15,6 @@ import * as serviceWorker from './config/serviceWorker';
 import { Main } from './components/Main/Main';
 
 import './theme/index.css';
-
-addLocaleData([...pt, ...en]);
 
 const locale =
   navigator.language ||

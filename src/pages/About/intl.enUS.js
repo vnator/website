@@ -3,18 +3,20 @@ const about_enUS = {
   profile: {
     title: 'Profile',
     paragraph: {
-      intro: "We like to define ourselves as 'Software Crafters', not wanting to appear arrogant, maybe pretentious but the intention is only to expose our concern with details in the work.",
+      intro:
+        "We like to define ourselves as 'Software Crafters', not wanting to appear arrogant, maybe pretentious but the intention is only to expose our concern with details in the work.",
       main:
-      'We will do our best, analing, designing and developing the product in the best way, focusing on the details of project, in environment, in infrastructure, in standards and best practices, in testing and maintenance. I can still add that we will do all this in a transparent and organized way demonstrating commitment in the work.',
-    }
+        'We will do our best, analing, designing and developing the product in the best way, focusing on the details of project, in environment, in infrastructure, in standards and best practices, in testing and maintenance. I can still add that we will do all this in a transparent and organized way demonstrating commitment in the work.',
+    },
   },
   focus: {
     title: 'Focus',
     paragraph: {
-      intro: "We develop web applications that prioritize customer needs and your product as a main goal. We will always seek results by analyzing two criteria, the first one is: 'what is the best way to do something', and the second one is: 'what is the resource that we have to develop this something' (resource, time, investment, manpower or knowledge). No waste, impossible jobs that do not return a viable product, much less sloppy work with dead solutions.",
-      main: 'If you are interested in knowing more about our stack of technology, please click {link}',
-      link: 'here',
-    }
+      intro:
+        "We develop web applications that prioritize customer needs and your product as a main goal. We will always seek results by analyzing two criteria, the first one is: 'what is the best way to do something', and the second one is: 'what is the resource that we have to develop this something' (resource, time, investment, manpower or knowledge). No waste, impossible jobs that do not return a viable product, much less sloppy work with dead solutions.",
+      main:
+        'If you are interested in knowing more about our stack of technology, please click <link>here</link>',
+    },
   },
   values: {
     title: 'Values',
