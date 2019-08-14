@@ -86,9 +86,14 @@ const Tech = () => {
           </Paragraph>
 
           <Paragraph>
-            {formatMessage({
-              id: 'tech.backend.persistence.paragraph.noSql',
-            })}
+            {formatMessage(
+              {
+                id: 'tech.backend.persistence.paragraph.noSql',
+              },
+              {
+                quote: str => <quote className={style.quote}>{str}</quote>,
+              },
+            )}
           </Paragraph>
 
           <Paragraph>

@@ -1,82 +1,82 @@
 const tech_enUS = {
   title: 'Technology',
   paragraph:
-    'A VNATOR é composta por profissionais com mais de 10 anos de experiência na área de tecnologia como arquitetos de software e desenvolvedores, com conhecimento profundo das tecnologias fundamentais que compõem um produto web do lado do servidor(Backend), cliente(Frontend) e dos protocolos de comunicação que podem ser utilizados(http, tcp, websockets…).',
+    'VNATOR is composed for professionals with more than 10 years of  experience in technology information as software architects and developers, with lot of knowledge of core technologies that make up a server-side(Backend), client-side of web product(Frontend) and communication protocols that can be used (http, tcp, websockets…).',
   backend: {
     title: 'Backend',
     paragraph:
-      'Nosso desenvolvimento server side é focado na estrutura dos dados mais eficiente e possível para a finalidade da aplicação, pela vasta experiência generalizada não nos prendemos a uma tecnologia específica.',
+      'Server side development should have as efficient architecture as possible for the application, Due to our vast generalist experience we are stuck to a specific technology, it gives us the flexibility to act on the ideal technology to suit any scenario.',
     architecturalPatterns: {
       title: 'Architectural Patterns',
       paragraph:
-        'Nossa experiência em desenvolvimento de aplicações, se estende por diversos padrões de arquitetura, como Sistemas Monolíticos para aplicações focadas em uma estrutura simples e exata, Microservices e Event Sourcing pensando em sistemas multi tenancy complexos com integrações de diversos serviços, Desenvolvimento Orientado a Eventos e escalabilidade. Rest APIs seguindo boas práticas de arquitetura e organização de rotas, APIs GraphQL com infraestrutura segura e escalável economizando acesso de recurso com tráfego de informações específicas, Aplicações serverless fazendo uso dos melhores recursos de service providers.',
+        'Our application development expertise extends across a variety of architectural standards, such as Monolithic Systems for applications focused on a simple and accurate structure, complex multi tenancy systems, microservices or Event Sourcing with high scalability or a lot of third party service integrations. RestFull APIs by following best practices, with strong patterns in architecture and organization. GraphQL APIs with secure and scalable infrastructure saving resource access with specific information traffic. Serverless applications making use of the best features of service providers.',
     },
     languages: {
-      title: 'Linguagens de Programação',
+      title: 'Programing Languages',
       paragraph: {
         intro:
-          'Por termos trabalhado com diversas linguagens, adquirimos imensa facilidade em adaptar nos a novas tecnologias ou paradigmas.',
+          'Cause we have worked with several languages, we have become extremely adaptable to new technologies or paradigms.',
         java:
-          'Estruturas declarativas e patterns resilientes como a linguagem de programação Orientada a Objeto Java, são uma rotina em nossas aplicações.',
+          'Declarative structures and resilient patterns like the Java Object Oriented programming language are a routine in our work.',
         python:
-          'Houve muito tempo e estudo investidos por nossos colaboradores em Python pela sua versatilidade como linguagem e ambientes de aplicação.',
+          'We have invested a lot of time and study in Python for its versatility as a language and application environment.',
         haskell:
-          'Temos fascínio por linguagens funcionais(Haskell <3), mesmo em linguagens imperativas procuramos aplicar conceitos funcionais quando viável.',
+          'We are fascinated by functional languages (Haskell <3), even in imperative languages we seek to apply functional concepts when we find it appropriate.',
         node:
-          'Caso sua demanda exija Javascript NodeJS, adquirimos um profundo conhecimento de seus recursos e limitações, sabemos como extrair o melhor dessa linguagem que possui uma comunidade que produz uma quantidade extraordinária de ferramentas, bibliotecas e plataformas.',
+          'If your demand requires Javascript NodeJS, we have a thorough knowledge of its features and limitations, we know how to get the best of this language that has a community that produces an extraordinary amount of frameworks, libraries and platforms.',
         tcl:
-          'TCL é uma linguagem de programação, que pode ser utilizado como script (fazendo uso do interpretador TCL), também pode ser encontrado dentro do próprio python através da biblioteca tkinter, ou pode ser utilizado como uma biblioteca no código C; TCL é uma linguagem multiplataforma, muito poderoso, leve e elegante.',
+          'TCL is a programming language that can be used as a script (making use of the TCL interpreter), can also be found inside python itself via the tKinter library, or can be used as a library in C/C++; TCL is a multiplatform language, very powerful, light and elegant.',
         rust:
-          'Por fim nosso amor mais profundo é dedicado a linguagens que nos dão um controle primordial sobre o processamento do dado, como C/C++ e Rust.',
+          'Finally our deepest love is devoted to languages that give us primary control over data processing such as C / C ++ and Rust.',
       },
     },
     persistence: {
-      title: 'Persistencia',
+      title: 'Persistence',
       paragraph: {
         intro:
-          'Fazer a correta arquitetura de armazenamento dos dados é fundamental para utilizar informações de forma concisa e eficiente, entendendo conforme a necessidade do sistema seja consulta ou inserção qual deve ser favorecido em cada caso.',
+          'Making the right data storage architecture is critical to using information concisely and efficiently. Choose the right database technology, tools, and how to draw the relationship of information.',
         sql:
-          'A persistência dos dados utilizando banco de dados relacional, fazendo uso da normalização e dos recursos que cada um dos SGBD (Sistema de Gerenciamento de Banco de Dados) disponibilizam, por mais que todos sigam as normas SQL, cada um deles possui suas particularidades.',
+          'Data persistence using relational database is a common and secure alternative, making use of the standardization and resources that each DBMS (Database Management System) provides, however much everyone follows SQL standards, everyone has their own peculiarities.',
         noSql:
-          'Também podemos fazer uso de noSQL ou banco de dados não relacional, que tem uma característica muito simples de “chave:valor” e uma eficiência para armazenamento de dados simples e menos complexos.',
+          'We can use noSQL (non relational database), which has a very simple <quote>key: value</quote> feature and an efficiency for simple and less complex data storage.',
         reddis:
-          'Seguindo essa mesma idéia podemos falar do banco de dados em memória como Redis, famosos por reduzirem o tempo de acesso aos dados, sendo uma forma interessante de compartilhar dados entre diferentes aplicações com baixo custo de leitura/escrita.',
+          'Following the same pattern that NoSql, we can talk about in-memory databases like Redis, famous for reducing data access time, being an interesting way to share data between different applications with low access cost.',
         orm:
-          'Aplicações que necessitem de um modelo relacional, podem utilizar ORM (Object-relational mapping), ferramentas que facilitam o desenvolvimento de aplicações e padronização do acesso aos dados. O framework Hibernate é sem dúvida uma referência para trabalhar o ORM utilizado na linguagem Java, fazendo uso de anotações ou arquivo XML. Em Python Django faz uso de Herança pra de uma forma muito eficiente trabalhar o ORM. E o sequelize é uma alternativa muito interessante para o javascript, sendo uma interface entre o banco de dados e o objeto mapeado como scheama.',
+          'Applications that require a relational model can use ORM (Object-relational mapping), a tool that facilitates application development and standardization of data access. The Hibernate framework is a great example for working with ORM in Java, making use of annotations or XML files. In Python Django makes use of Inheritance to work ORM very efficiently. And sequelize is a very interesting alternative to NodeJs, being an interface between the database and the mapped object as scheama.',
       },
     },
   },
   frontend: {
     title: 'Frontend',
     paragraph:
-      'Nosso objetivo com o frontend é manter o desenvolvimento estruturado. Por esse motivo aderimos a stacks de tecnologias específicas, buscando maior produtividade e resiliência.',
+      "With the frontend our main rule is to keep the development structured. That's why we stick to technology-specific stacks for greater productivity and resilience.",
     web: {
       title: 'Web',
       paragraph: {
         languages:
-          'Se tratando de desenvolvimento web, a nossa linguagem de programacao oficial eh o javascript nas versoes ES2015 e posteriores. Em aplicacoes que precisem de codigo mais estruturado e com tipagem estatica o TypeScript ou Elm sao duas otimas opcoes para desenvolvimento, sendo que TypeScript acaba tendo foco maior em Programacao Orientada a Objetos com sintaxe similar a javascript, enquanto Elm uma linguagem puramente funcional aplica padroes de tipagem estatica e sintaxe identicas a Haskell, em acresimo posso citar que Elm oferece uma seguranca relevante para o desenvolvimente sem erros de execucao. Caso a demanda exija uma linguagem com alto nivel estrutural e maior foco na performance, Rust se torna a melhor escolha possivel, compilando o codigo para WASM(Formato binario nativo em navegadores modernos) com excelentes recursos nativos para uma aplicacao.',
+          'In web development, our official programming language is javascript in ES2015 and later versions. In applications that require more structured and statically typed code, TypeScript or Elm are two great options for development. TypeScript has a greater focus on Object Oriented Programming with javascript-like syntax, while Elm a purely functional language use an identical typing system and syntax to Haskell, in addition I can mention that Elm offers relevant security for development without runtime errors. If demand requires a language with a high structural level and a greater focus on performance, Rust becomes the best choice possible, compiling the WASM code (native binary format in modern browsers) with excellent native features for an application.',
         libraries:
-          'React eh a Biblioteca para Interfaces que adotamos como oficial na VNATOR, buscamos construir nossas aplicacoes Client Side como SPAs Responsivas e utilizamos Redux como para gestao de estado da aplicacao, caso a comunicacao com o backend seja feita atraves de GraphQl optamos por utilizar apollo client.',
+          'React is the Interfaces Library adopted by VNATOR, we seek to build Responsive applications and use Redux for frontend state management. If the communication with the backend is done through GraphQL we chose to use apolloClient.',
       },
     },
     mobile: {
-      title: 'mobile',
+      title: 'Mobile',
       paragraph:
-        'Em Aplicações mobile podemos oferecer dois caminhos, o desenvolvimento de aplicações com tecnologia híbrida focada em manter um código fonte para ambas as plataformas(iOS e Android), ou apenas desenvolvimento nativo para Android, essa limitação se deve mais pela plataforma do iOS ser mais restritivo quanto a tecnologias para desenvolvimento de um produto.',
+        'In Mobile Applications we can offer two ways, developing applications with hybrid technology focused on maintaining source code for both platforms (iOS and Android), or just native Android development, this limitation is due to the iOS platform being restrictive in technologies for product development.',
       reactNative: {
         title: 'React Native',
         paragraph:
-          'Ferramenta focada em densenvolvimento de aplicacoes nativas utilizando javascript, tratasse de uma ferramenta ideal para aplicacoes que nao exijam a performance de uma aplicacao nativa, em troca disso utilizamos uma linguagem amplamente adotada pelo mercado que pode ser muito mais facil em alocar recurso para mantenibilidade do projeto, assim como uma vasta colecao de bibliotecas e componentes mantidas pela comunidade Open Source.',
+          'Native application development tool using javascript programming language is great for applications that do not require the performance of a native application, instead we use a language widely adopted by the market with many developers in the market to maintain the project, with many libraries and components maintained by the Open Source community.',
       },
       flutter: {
         title: 'Flutter',
         paragraph:
-          'O Fluter eh um kit de desenvolvimento para interfaces, que compila seu codigo em uma aplicacao nativa. Acaba sendo mais performatico que React Native, mas a linguagem de programacao utilizada no Fluter eh o Dart. Ja esta sendo bem adotada pelo mercado mas ainda assim nao possui a popularidade do Javascript.',
+          'Fluter is an interface development kit that compiles your code into a native application. It is superior to React Native in terms of performance, the programming language used in Fluter or Dart, is being well adopted by the market but still does not have the popularity of Javascript.',
       },
       androidSdk: {
         title: 'Android SDK',
         paragraph:
-          'O desenvolvimento nativo acaba sendo sempre a melhor opcao quando se espera um produto com a melhor performance possivel, alem disso as linguagens utilizadas para com AndroidSDK sao Java ou Kotlin, duas linguagens que estao bem ',
+          'Native development is always the best choice for a product that seeks higher performance, and the languages used for AndroidSDK are Java or Kotlin, two very resilient and wide-community languages.',
       },
     },
   },
