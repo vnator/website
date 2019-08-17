@@ -7,15 +7,20 @@
   --title: 3rem;
   --subtitle: 1.75rem;
 
-  --body: 0.925;
+  --body: 0.925rem;
   --quote: 0.875rem;
-  --caption: 0.75rem;
+  --caption: 0.7rem;
 
   /* letter-spacing:  */
   --letters-small: 0;
   --letters-base: 0.25rem;
   --letters-large: 0.4rem;
   --letters-extra: 0.5rem;
+
+  /* line-height */
+  --line-height-small: 0;
+  --line-height-base: 1.5em;
+  --line-height-large: 2em;
 
   /* font weight */
   --weight-bold: 700;

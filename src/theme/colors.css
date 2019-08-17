@@ -1,43 +1,43 @@
 :root {
   /* Brand Colors */
-  --sun: #e71d36;
-  --sky: #2ec4b6;
-  --cloud: #efffe9;
-  --ocean: #034173;
-  --deep-ocean: #011627;
+  --main: #3385d0;  
+  --main-ligth: #afd7ee;  
+  --main-dark: #1a4286;
 
-  /* Black and whites */
+  --even: #119b9e;
+  --even-ligth: #efffe9;  
+  --even-dark: #033054;
+
+  --odd: #eb271a;
+
+  /* grayscale */
   --glass: transparent;
+  --glass-fume: rgba(00, 10, 22, 0.52);
 
-  --black-full: #000;
-  --black-fume: rgba(0, 0, 0, 0.87);
-  --black-half: rgba(0, 0, 0, 0.57);
-  --black-smoke: rgba(0, 0, 0, 0.22);
-  --black-glass: rgba(0, 0, 0, 0.07);
+  --black: #000;
+  --grey-1: #2c2c2c;
+  --grey-2: #4b4b4b;
+  --grey-3: #6a6a6a;
+  --grey-4: #898989;
+  --grey-5: #a8a8a8;
+  --grey-6: #c6c6c6;
+  --grey-7: #e5e5e5;
+  --white: #fff;
 
-  --white-full: #fff;
-  --white-fume: rgba(255, 255, 255, 0.87);
-  --white-half: rgba(255, 255, 255, 0.57);
-  --white-smoke: rgba(255, 255, 255, 0.22);
-  --white-glass: rgba(255, 255, 255, 0.07);
+  /* user colors */
+  --info: #3a64f6;
+  --info-light: #c7d1f3;
+  --info-dark: #072075;
 
-  /* Text Colors */
-  --text: #3c4954;
-  --text: #2c3944;
-  --title: var(--ocean);
-  --sub-title: var(--deep-ocean);
-  --quote: #6c7984;
+  --ok: #60ec66;
+  --ok-light: #b7fbba;
+  --ok-dark: #006c04;
 
-  /* User Colors */
-  --info: #224eb4;
-  --info-bg: #b5c1ff;
+  --error: #f3764f;
+  --error-light: #ffd9cd;
+  --error-dark: #922a09;
 
-  --success: #16946c;
-  --success-bg: #a2eec6;
-
-  --error: #b51d18;
-  --error-bg: #c1abaa;
-
-  --warn: #ffa800;
-  --warn-bg: #ffeabf;
+  --warn: #e7eb2e;
+  --warn-light: #f9ffb6;
+  --warn-dark: #acaf09;
 }
