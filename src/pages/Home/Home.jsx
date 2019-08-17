@@ -5,11 +5,16 @@ import style from './Home.module.css';
 import { ROLE } from '../../constants/elementAttr';
 import { Title } from '../../components/Title/Title';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
+import img from '../../img/bg-7.jpeg';
 
 const Home = () => {
   const { formatMessage } = useIntl();
   return (
     <div className={style.Home}>
+      <div className={style.background}>
+        <img src={img} className={style.img} />
+        <div className={style.cover} />
+      </div>
       <div className={style.banner} role={ROLE.BANNER}>
         {/*
           image element

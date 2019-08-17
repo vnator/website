@@ -1,14 +1,24 @@
 const tech_ptBR = {
+  development: {
+    git: 'git',
+    arch: 'Arch',
+    circleCI: 'CircliCi'
+  }
   archtectural: {
     kafka: 'Kafka',
     graphQL: 'GraphQL',
     awsLambda: 'AWS Lambda',
     awsEc2: 'AWS EC2',
     docker: 'Docker',
-    awsS3: 'AWS S3', 
-    awsCloudformation: 'AWS Cloudformation', 
+    kubernetes: 'Kubernetes',
+    awsS3: 'AWS S3',
+    awsCloudformation: 'AWS Cloudformation',
     awsCognito: 'AWS Cognito',
     awsApiGateway: 'AWS API Gateway',
+    awsAmplify: 'AWS Amplify',
+    awsCloudfront: 'AWS Cloudfront',
+    awsCognito: 'AWS Cognito',
+    awsRoute53: 'AWS Route53',
     serverless: 'Serverless',
   },
   languages: {
@@ -22,7 +32,7 @@ const tech_ptBR = {
   persistence: {
     postgres: 'PostgreSQL',
     mySql: 'MySQL',
-    sQLServer: 'sQLServer',
+    sQLServer: 'SQLServer',
     aurora: 'AuroraDB',
     mongoDB: 'MongoDB',
     dynamoDB: 'DynamoDB',
@@ -41,11 +51,13 @@ const tech_ptBR = {
     elm: 'Elm',
     wasm: 'Web Assembly (WASM)',
     react: 'ReactJs',
+    redux: 'Redux',
+    webpack: 'Webpack',
+    yarn: 'Yarn',
     apollo: 'Apollo Client',
-    pws: 'Progressive Web Application (PWA)',
+    pwa: 'Progressive Web Application (PWA)',
   },
   mobile: {
-    reactNative: 'React Native',
     dart: 'Dart',
     flutter: 'Flutter',
     androidSDK: 'Android SDK',

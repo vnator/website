@@ -6,7 +6,7 @@ const home_ptBR = {
   },
   grid: {
     title:
-      'Independente do projeto, Aceitaremos a desafio e entregamos resultado.',
+      'Independente do projeto, Aceitaremos a desafio e entregamos resultado.', // mudar
     analyze: {
       title: 'Análise',
       paragraph:
