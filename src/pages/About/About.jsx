@@ -7,12 +7,20 @@ import { Title } from '../../components/Title/Title';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
 import { ROLE } from '../../constants/elementAttr';
 import { routes } from '../../config/routes';
+import { Banner } from '../../components/Banner/Banner';
+import imgDesktop from '../../img/banner-about-desktop.jpg';
+import imgMobile from '../../img/banner-about-desktop.jpg';
 
 let About = () => {
   const { formatMessage } = useIntl();
   return (
     <div className={style.About}>
-      <Title>{formatMessage({ id: 'about.title' })}</Title>
+      <Banner
+        title={formatMessage({ id: 'about.title' })}
+        img={{ desktop: imgDesktop, mobile: imgMobile }}
+        white
+      />
+
       <article className={style.content}>
         <header className={style.header}>
           <Title level={3}>

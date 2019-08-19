@@ -59,9 +59,9 @@
   text-decoration: none;
   font-family: var(--font-title);
   font-weight: var(--weight-normal);
-  font-size: var(--subtitle);
-  letter-spacing: var(--letters-large);
-  margin-right: calc(0 - var(--letters-large));
+  font-size: var(--h3);
+  letter-spacing: var(--letter-h2);
+  margin-right: calc(0 - var(--letter-h2));
   transition: var(--transition);
   display: block;
   margin-bottom: -20px;
@@ -72,7 +72,7 @@
   display: block;
   font-family: var(--code);
   font-size: var(--caption);
-  letter-spacing: var(--letters-base);
+  letter-spacing: var(--letter-h4);
   font-weight: var(--weight-medium);
   opacity: 0;
   transition: var(--transition-large);

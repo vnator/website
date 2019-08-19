@@ -1,16 +1,23 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 
-import style from './Tech.module.css';
+import { Banner } from '../../components/Banner/Banner';
 import { Title } from '../../components/Title/Title';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
+import imgDesktop from '../../img/banner-tech-desktop.jpeg';
+import imgMobile from '../../img/banner-tech-mobile.jpeg';
+import style from './Tech.module.css';
 
 const Tech = () => {
   const { formatMessage } = useIntl();
   return (
     <div className={style.Tech}>
+      <Banner
+        white
+        title={formatMessage({ id: 'tech.title' })}
+        img={{ desktop: imgDesktop, mobile: imgMobile }}
+      />
       <main className={style.main}>
-        <Title>{formatMessage({ id: 'tech.title' })}</Title>
         <Paragraph>{formatMessage({ id: 'tech.paragraph' })}</Paragraph>
       </main>
       <div className={style.backend}>

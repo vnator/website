@@ -2,9 +2,10 @@
   /* Z-INDEX */
   --z-base: 1;
   --z-banner: 2;
-  --z-header: 3;
-  --z-sidebar: 4;
-  --z-dialog: 5;
-  --z-snackbar: 6;
+  --z-gradient: 4;
+  --z-content: 5;
+  --z-header: 6;
+  --z-sidebar: 7;
+  --z-dialog: 8;
+  --z-snackbar: 9;
 }
-

@@ -5,37 +5,22 @@ import style from './Home.module.css';
 import { ROLE } from '../../constants/elementAttr';
 import { Title } from '../../components/Title/Title';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
-import img from '../../img/bg-7.jpeg';
+import imgDesktop from '../../img/banner-home-desktop.jpeg';
+import imgMobile from '../../img/banner-home-mobile.jpeg';
+import { Banner } from '../../components/Banner/Banner';
+import { BANNER_STATUS } from '../../constants/banner';
 
 const Home = () => {
   const { formatMessage } = useIntl();
   return (
     <div className={style.Home}>
-      <div className={style.background}>
-        <img src={img} className={style.img} />
-        <div className={style.cover} />
-      </div>
-      <div className={style.banner} role={ROLE.BANNER}>
-        {/*
-          image element
-          <img
-            className={style.image}
-            srcSet={`${bannerImage}, ${bannerImageMobile} 768w`}
-            alt={formatMessage({ id: 'home.banner.img' })}
-            >
-        */}
-        <div className={style.content}>
-          <Title>{formatMessage({ id: 'home.banner.title' })}</Title>
-          <Paragraph>
-            {formatMessage({ id: 'home.banner.paragraph' })}
-          </Paragraph>
-        </div>
-      </div>
+      <Banner
+        title={formatMessage({ id: 'home.banner.title' })}
+        content={formatMessage({ id: 'home.banner.paragraph' })}
+        img={{ desktop: imgDesktop, mobile: imgMobile }}
+        status={BANNER_STATUS.END}
+      />
       <main role={ROLE.MAIN} className={style.grid}>
-        <header className={style.header}>
-          <Title>{formatMessage({ id: 'home.grid.title' })}</Title>
-        </header>
-
         <div className={style.list}>
           <article className={style.card}>
             <header>

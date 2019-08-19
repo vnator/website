@@ -5,11 +5,11 @@ const sidebar_ptBR = {
   },
   about: {
     label: 'Sobre',
-    description: 'Nos e nossos valores',
+    description: 'Nós e nossos valores',
   },
   tech: {
     label: 'Tecnologia',
-    description: 'nossa experiencia e foco',
+    description: 'nossa experiência e foco',
   },
   contact: {
     label: 'Contato',

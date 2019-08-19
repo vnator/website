@@ -1,2 +1,29 @@
 .Title {
+  --more-size: 1.8em;
+  --more-space: 0.02em;
+
+  font-family: var(--font-title);
+  font-weight: var(--weight-medium);
+}
+
+.Title::first-letter {
+  font-family: var(--font-gothic);
+  font-size: var(--more-size);
+  letter-spacing: var(--more-space);
+  text-transform: uppercase;
+}
+
+._level-2 {
+  font-size: var(--h2);
+  letter-spacing: var(--letter-caption);
+}
+
+._level-3 {
+  font-size: var(--h3);
+  letter-spacing: var(--letter-caption);
+}
+
+._level-4 {
+  font-size: var(--h4);
+  letter-spacing: var(--letter-caption);
 }

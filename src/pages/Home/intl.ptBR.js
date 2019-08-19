@@ -1,12 +1,10 @@
 const home_ptBR = {
   banner: {
-    title: 'Artesoes de Software',
+    title: 'Software Crafters',
     paragraph:
       'Análise, Arquitetura e Desenvolvimento de aplicações web especializadas.',
   },
   grid: {
-    title:
-      'Independente do projeto, Aceitaremos a desafio e entregamos resultado.', // mudar
     analyze: {
       title: 'Análise',
       paragraph:

@@ -1,21 +1,27 @@
 :root {
+  --font-gothic: 'Fette Caslon Gotisch';
   --font-title: 'Lato', sans-serif;
   --font-text: Helvetica, Arial, sans-serif;
-  --code: 'Fira Code', monospace;
+  --code: monospace;
 
   /* font size */
-  --title: 3rem;
-  --subtitle: 1.75rem;
+  --h1: 3.75rem;
+  --h2: 2.5rem;
+  --h3: 1.75rem;
+  --h4: 1.25rem;
 
-  --body: 0.925rem;
+  --body: 1rem;
   --quote: 0.875rem;
   --caption: 0.7rem;
 
   /* letter-spacing:  */
-  --letters-small: 0;
-  --letters-base: 0.25rem;
-  --letters-large: 0.4rem;
-  --letters-extra: 0.5rem;
+  --letter-zero: 0;
+  --letter-caption: 0.075rem;
+  --letter-body: 0.125rem;
+  --letter-h4: 0.25rem;
+  --letter-h3: 0.325rem;
+  --letter-h2: 0.4rem;
+  --letter-h1: 0.5rem;
 
   /* line-height */
   --line-height-small: 0;
@@ -25,4 +31,14 @@
   /* font weight */
   --weight-bold: 700;
   --weight-medium: 500;
+}
+
+@media screen and (max-width: 61.25em) {
+  :root {
+    /* font size */
+    --h1: 3rem;
+    --h2: 2rem;
+    --h3: 1.5rem;
+    --h4: 1.2rem;
+  }
 }

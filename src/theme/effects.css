@@ -6,4 +6,11 @@
 
   /* BOX-SHADOW */
   --shadow-base: 0px 0px 41px 17px var(--black-glass);
+
+  /* GRADIENT */
+  --gradient-black: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.54) 0%,
+    transparent 100%
+  );
 }

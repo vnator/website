@@ -15,11 +15,12 @@
   font-style: var(--weight-bold);
 }
 
-/* CODE */
+/* GOTHIC */
 @font-face {
-  font-family: 'Fira Code';
-  src: url('../fonts/firacode-regular-webfont.woff') format('woff'),
-      url('../fonts/firacode-regular-webfont.woff2') format('woff2');
+  font-family: 'Fette Caslon Gotisch';
+  src: url('../fonts/fette_caslon_gotisch-webfont.woff2') format('woff2'),
+       url('../fonts/fette_caslon_gotisch-webfont.woff') format('woff');
   font-weight: var(--weight-regular);
   font-style: var(--weight-regular);
+
 }

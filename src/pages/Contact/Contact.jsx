@@ -2,15 +2,21 @@ import React from 'react';
 import { useIntl } from 'react-intl';
 
 import style from './Contact.module.css';
-import { Title } from '../../components/Title/Title';
 import { FORM, TYPE } from '../../constants/form';
+import { Banner } from '../../components/Banner/Banner';
+import imgDesktop from '../../img/banner-contact-desktop.jpeg';
+import imgMobile from '../../img/banner-contact-mobile.jpeg';
 
 const Contact = () => {
   const { formatMessage } = useIntl();
 
   return (
     <div className={style.Contact}>
-      <Title>{formatMessage({ id: 'contact.title' })}</Title>
+      <Banner
+        img={{ desktop: imgDesktop, mobile: imgMobile }}
+        title={formatMessage({ id: 'contact.title' })}
+        white
+      />
 
       <form className={style.form}>
         <legend>{formatMessage({ id: 'contact.form.legend' })}</legend>

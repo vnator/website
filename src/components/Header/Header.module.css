@@ -4,6 +4,8 @@
   --translate-to-left: translateX(-5px);
   --translate-to-right: translateX(5px);
 
+  --alternate: var(--main-dark);
+
   position: fixed;
   left: 0;
   top: 0;
@@ -13,6 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: var(--transition);
 }
 
 .pageTitle {
@@ -21,8 +24,9 @@
 }
 
 .logo {
-  height: 65px;
+  height: 80px;
   width: auto;
+  transition: var(--transition);
 }
 
 .button {
@@ -63,10 +67,17 @@
   transform: var(--translate-to-right);
 }
 
+/* ALTERNATE */
+._alternate .logo,
+._alternate .bar {
+  color: var(--alternate);
+  fill: var(--alternate);
+}
+
 /* Provisory */
 .inDevelopmentAlert {
   --rotate: rotateZ(-45deg);
-
+  
   background: var(--warn-dark);
   padding: var(--space-base);
   color: var(--white);
@@ -77,6 +88,28 @@
   top: 70px;
   text-align: center;
   transform: var(--rotate);
+
+  display: none;
+}
+
+/* scrolled */
+
+._scrolled {
+  --btn-width: 32px;
+  --btn-height: 38.5px;
+
+  background: var(--main);
+  height: var(--header-height-small);
+}
+
+._scrolled .logo {
+  fill: var(--white);
+  height: 40px !important;
+}
+
+._scrolled .bar {
+  height: 3px;
+  margin: 4px 0;
 }
 
 @media screen and (max-width: 61.25em) {

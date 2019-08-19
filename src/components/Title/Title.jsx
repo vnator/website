@@ -25,7 +25,7 @@ const Title = ({ children, level }) => {
   const props = {
     role: ROLE.HEADING,
     'aria-level': level,
-    className: `${style.Title} _level-${level}`,
+    className: `${style.Title} ${style[`_level-${level}`]}`,
   };
 
   return switchHeading(level, props, children);
