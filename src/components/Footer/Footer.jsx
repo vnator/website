@@ -39,25 +39,27 @@ let Footer = () => {
 
   return (
     <footer className={style.Footer}>
-      <small className={style.copyRight}>
-        <span className={style.copyIcon}>&copy;</span>{' '}
-        {formatMessage({ id: 'footer.copyRight' })}
-      </small>
-      <IconVnator className={style.vnator} />
-      <ul className={style.list}>
-        {Object.values(LINKS).map(link => (
-          <li>
-            <a
-              className={style.item}
-              {...link}
-              aria-label={formatMessage({
-                id: `footer.externalLinks.${link.rel}`,
-              })}>
-              {switchIcon(link.rel)}
-            </a>
-          </li>
-        ))}
-      </ul>
+      <div className={style.container}>
+        <small className={style.copyRight}>
+          <span className={style.copyIcon}>&copy;</span>{' '}
+          {formatMessage({ id: 'footer.copyRight' })}
+        </small>
+        <IconVnator className={style.vnator} />
+        <ul className={style.list}>
+          {Object.values(LINKS).map(link => (
+            <li>
+              <a
+                className={style.item}
+                {...link}
+                aria-label={formatMessage({
+                  id: `footer.externalLinks.${link.rel}`,
+                })}>
+                {switchIcon(link.rel)}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </footer>
   );
 };

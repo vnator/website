@@ -23,8 +23,8 @@ IconVnator.defaultProps = {
   viewBox: {
     minX: 0,
     minY: 0,
-    width: 32,
-    height: 34,
+    width: 34,
+    height: 32,
   },
   size: {
     height: undefined,

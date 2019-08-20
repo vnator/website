@@ -11,7 +11,8 @@
   transition: var(--transition);
   opacity: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .Sidebar._open,
@@ -19,9 +20,15 @@
   opacity: 1;
 }
 
+.container {
+  width: var(--width);
+  display: flex;
+  justify-content: flex-end;
+}
+
 .menu {
   padding: var(--zero);
-  margin: var(--container-margin);
+  margin: var(--zero);
   margin-top: var(--header-height);
   max-width: 280px;
   list-style: none;
@@ -87,4 +94,10 @@
 
 .menuItem a:hover .description {
   opacity: 1;
+}
+
+@media screen and (min-width: 100em) {
+  .container {
+    width: var(--width-full);
+  }
 }

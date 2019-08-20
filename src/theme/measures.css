@@ -14,7 +14,7 @@
   /* Container width */
   --container-margin: 6vw;
   --width: calc(100vw - (var(--container-margin) * 2));
-  --width-full: 1600px;
+  --width-full: 1180px;
   --width-tablet: 92vw;
   --width-mobile: 96vw;
 

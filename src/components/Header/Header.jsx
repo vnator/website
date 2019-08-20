@@ -11,7 +11,7 @@ const Header = ({ openSidebar, isOpen }) => {
 
   const handleScroll = () => {
     console.log('eu existo');
-    const width = window.screen.width <= 960 ? 600 : 900;
+    const width = window.screen.width <= 960 ? 600 : 860;
 
     if (document.documentElement.scrollTop > width && !scroll) {
       setScroll(true);
@@ -31,22 +31,23 @@ const Header = ({ openSidebar, isOpen }) => {
   const { formatMessage } = useIntl();
   return (
     <header className={`${style.Header} ${scroll ? style._scrolled : ''}`}>
-      <h1 className={style.pageTitle} role={ROLE.HEADING} aria-level={1}>
-        <Logo className={style.logo} />
-      </h1>
-      <div className={style.inDevelopmentAlert}>in development</div>
-      <button
-        className={`_reset ${style.button}`}
-        id={ID.MENU_OPEN}
-        aria-haspopup={true}
-        aria-expanded={isOpen}
-        aria-label={formatMessage({ id: 'header.button' })}
-        onClick={openSidebar}
-        aria-controls={ID.MENU}>
-        <span className={`${style.bar} ${style._left}`} />
-        <span className={`${style.bar} ${style._right}`} />
-        <span className={`${style.bar} ${style._left}`} />
-      </button>
+      <div className={style.container}>
+        <h1 className={style.pageTitle} role={ROLE.HEADING} aria-level={1}>
+          <Logo className={style.logo} />
+        </h1>
+        <button
+          className={`_reset ${style.button}`}
+          id={ID.MENU_OPEN}
+          aria-haspopup={true}
+          aria-expanded={isOpen}
+          aria-label={formatMessage({ id: 'header.button' })}
+          onClick={openSidebar}
+          aria-controls={ID.MENU}>
+          <span className={`${style.bar} ${style._left}`} />
+          <span className={`${style.bar} ${style._right}`} />
+          <span className={`${style.bar} ${style._left}`} />
+        </button>
+      </div>
     </header>
   );
 };

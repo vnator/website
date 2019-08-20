@@ -3,13 +3,12 @@ import Type from 'prop-types';
 import { useIntl } from 'react-intl';
 
 import { Svg, viewBoxType } from './Svg';
-import style from './Icon.module.css';
 
 const IconTower = ({ className, ...props }) => {
   const { formatMessage } = useIntl();
 
   return (
-    <Svg {...props} className={`${style.FigureTower} ${className}`}>
+    <Svg {...props} className={className}>
       <title>{formatMessage({ id: 'icons.figure.tower' })}</title>
       <path
         fill="#b6bccf"

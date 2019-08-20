@@ -4,11 +4,18 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   background: var(--even-dark);
   box-sizing: border-box;
-  padding: var(--space-large) var(--container-margin);
+  padding: var(--space-large) 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--width);
 }
 
 .vnator {
@@ -68,4 +75,35 @@
 
 .icon:hover {
   fill: var(--odd);
+}
+
+@media screen and (max-width: 61.25em) {
+  .container {
+    flex-direction: column;
+  }
+
+  .copyRight {
+    order: 1;
+    width: 100%;
+    max-width: none;
+    margin: var(--space-large) 0;
+    text-align: center;
+  }
+
+  .list {
+    max-width: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .container {
+    width: var(--width-full);
+  }
+
+  .copyRight {
+    max-width: 400px;
+  }
 }

@@ -3,13 +3,12 @@ import Type from 'prop-types';
 import { useIntl } from 'react-intl';
 
 import { Svg, viewBoxType } from './Svg';
-import style from './Icon.module.css';
 
 const IconScroll = ({ className, ...props }) => {
   const { formatMessage } = useIntl();
 
   return (
-    <Svg {...props} className={`${style.FigureScroll} ${className}`}>
+    <Svg {...props} className={className}>
       <title>{formatMessage({ id: 'icons.figure.scroll' })}</title>
       <path
         fill="#feda9b"

@@ -28,14 +28,16 @@ const Home = () => {
         status={BANNER_STATUS.END}
       />
       <main role={ROLE.MAIN} className={style.grid}>
+        <header className={style.header}>
+          <Title>{formatMessage({ id: 'home.grid.title' })}</Title>
+        </header>
         <div className={style.list}>
           <article className={style.card}>
             <header>
-              <IconTelescope size={{ height: 200, width: 200 }} />
-
               <Title level={3}>
                 {formatMessage({ id: 'home.grid.analyze.title' })}
               </Title>
+              <IconTelescope className={style.icon} />
             </header>
             <Paragraph>
               {formatMessage({ id: 'home.grid.analyze.paragraph' })}
@@ -44,10 +46,10 @@ const Home = () => {
 
           <article className={style.card}>
             <header>
-              <IconSketch size={{ height: 200, width: 200 }} />
               <Title level={3}>
                 {formatMessage({ id: 'home.grid.architect.title' })}
               </Title>
+              <IconSketch className={style.icon} />
             </header>
             <Paragraph>
               {formatMessage({ id: 'home.grid.architect.paragraph' })}
@@ -56,10 +58,10 @@ const Home = () => {
 
           <article className={style.card}>
             <header>
-              <IconCarpenter size={{ height: 200, width: 200 }} />
               <Title level={3}>
                 {formatMessage({ id: 'home.grid.development.title' })}
               </Title>
+              <IconCarpenter className={style.icon} />
             </header>
             <Paragraph>
               {formatMessage({ id: 'home.grid.development.paragraph' })}
