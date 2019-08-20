@@ -1,14 +1,21 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 
-import style from './Home.module.css';
-import { ROLE } from '../../constants/elementAttr';
-import { Title } from '../../components/Title/Title';
-import { Paragraph } from '../../components/Paragraph/Paragraph';
+import {
+  IconSketch,
+  IconCarpenter,
+  IconTelescope,
+} from '../../components/Icon';
+
 import imgDesktop from '../../img/banner-home-desktop.jpeg';
 import imgMobile from '../../img/banner-home-mobile.jpeg';
+import { Paragraph } from '../../components/Paragraph/Paragraph';
+import { ROLE } from '../../constants/elementAttr';
+import { Title } from '../../components/Title/Title';
 import { Banner } from '../../components/Banner/Banner';
 import { BANNER_STATUS } from '../../constants/banner';
+
+import style from './Home.module.css';
 
 const Home = () => {
   const { formatMessage } = useIntl();
@@ -24,7 +31,8 @@ const Home = () => {
         <div className={style.list}>
           <article className={style.card}>
             <header>
-              <span>icon analyze</span>
+              <IconTelescope size={{ height: 200, width: 200 }} />
+
               <Title level={3}>
                 {formatMessage({ id: 'home.grid.analyze.title' })}
               </Title>
@@ -36,7 +44,7 @@ const Home = () => {
 
           <article className={style.card}>
             <header>
-              <span>icon architect</span>
+              <IconSketch size={{ height: 200, width: 200 }} />
               <Title level={3}>
                 {formatMessage({ id: 'home.grid.architect.title' })}
               </Title>
@@ -48,7 +56,7 @@ const Home = () => {
 
           <article className={style.card}>
             <header>
-              <span>icon develolopment</span>
+              <IconCarpenter size={{ height: 200, width: 200 }} />
               <Title level={3}>
                 {formatMessage({ id: 'home.grid.development.title' })}
               </Title>

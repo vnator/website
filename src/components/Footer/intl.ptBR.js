@@ -1,12 +1,13 @@
-import { SOCIAL } from '../../constants/externalLinks';
+import { CHANEL } from '../../constants/chanel';
 
 const footer_ptBR = {
-  copyRight: 'todos os direitos sobre o conteúdo são reservados a VNATOR',
+  copyRight: 'Todos os direitos sobre o conteúdo são reservados a VNATOR',
   externalLinks: {
-    [SOCIAL.LINKEDIN.rel]: 'linkedin da empresa vnator',
-    [SOCIAL.STACKSHARE.rel]: 'stack de tecnologia vnator',
-    [SOCIAL.MAIL.rel]: 'email de contato da vnator',
-    [SOCIAL.GITHUB.rel]: 'github da vnator',
+    [CHANEL.LINKEDIN]: 'Linkedin da empresa vnator',
+    [CHANEL.STACKSHARE]: 'Stack de tecnologia vnator',
+    [CHANEL.MAIL]: 'Email de contato da vnator',
+    [CHANEL.MEDIUM]: 'Blog da vnator',
+    [CHANEL.GITHUB]: 'Github da vnator',
   },
 };
 

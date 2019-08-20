@@ -1,9 +1,26 @@
-const tech_ptBR = {
+const icon_ptBR = {
+  vnator: 'VNATOR',
+  chanel: {
+    email: 'E-mail',
+    linkedin: 'Linkedin',
+    github: 'Github',
+    medium: 'Medium',
+    stackshare: 'Stackshare',
+  },
+  figure: {
+    sword: 'Sword',
+    bible: 'Bible',
+    tower: 'Tower',
+    scroll: 'Scroll',
+    telescope: 'Telescope',
+    sketch: 'Sketch',
+    carpenter: 'Carpenter',
+  },
   development: {
     git: 'git',
     arch: 'Arch',
-    circleCI: 'CircliCi'
-  }
+    circleCI: 'CircliCi',
+  },
   archtectural: {
     kafka: 'Kafka',
     graphQL: 'GraphQL',
@@ -65,4 +82,4 @@ const tech_ptBR = {
   },
 };
 
-export { tech_ptBR };
+export { icon_ptBR };
