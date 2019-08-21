@@ -9,7 +9,6 @@ const icon_enUS = {
   },
   dev: {
     git: 'git',
-    arch: 'Arch',
     circleCI: 'CircliCi',
     jwt: 'JWT',
     vim: 'Vim',

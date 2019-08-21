@@ -18,7 +18,6 @@ const icon_ptBR = {
   },
   dev: {
     git: 'git',
-    arch: 'Arch',
     circleCI: 'CircliCi',
     jwt: 'JWT',
     vim: 'Vim',
@@ -78,7 +77,6 @@ const icon_ptBR = {
     react: 'ReactJs',
     redux: 'Redux',
     webpack: 'Webpack',
-    yarn: 'Yarn',
     jest: 'Jest',
     npm: 'npm',
     yarn: 'Yarn',

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import { Header } from '../Header/Header';
 import { Footer } from '../Footer/Footer';
@@ -37,12 +37,12 @@ const Main = () => {
     <div className={style.Main}>
       <Header openSidebar={openSidebar} isOpen={open} />
       <Sidebar closeSidebar={closeSidebar} active={active} open={open} />
-      <section>
+      <Switch>
         <Route exact path={routes.home} component={Home} />
         <Route path={routes.about} component={About} />
         <Route path={routes.tech} component={Tech} />
         <Route path={routes.contact} component={Contact} />
-      </section>
+      </Switch>
       <Footer />
     </div>
   );

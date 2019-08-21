@@ -86,7 +86,7 @@
     order: 1;
     width: 100%;
     max-width: none;
-    margin: var(--space-large) 0;
+    margin: var(--space-extra) 0;
     text-align: center;
   }
 
@@ -95,15 +95,12 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: var(--space-extra);
   }
 }
 
 @media screen and (min-width: 100em) {
   .container {
     width: var(--width-full);
-  }
-
-  .copyRight {
-    max-width: 400px;
   }
 }

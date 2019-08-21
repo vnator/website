@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import ScrollToTop from 'react-router-scroll-top';
 
 import { IntlProvider } from 'react-intl';
 import '@formatjs/intl-relativetimeformat/polyfill';
@@ -25,7 +26,9 @@ const locale =
 ReactDOM.render(
   <IntlProvider locale={locale} messages={flattenMessages(messages[locale])}>
     <Router>
-      <Main />
+      <ScrollToTop>
+        <Main />
+      </ScrollToTop>
     </Router>
   </IntlProvider>,
   document.getElementById('root'),

@@ -1,7 +1,7 @@
 import { CHANEL } from '../../constants/chanel';
 
 const footer_enUS = {
-  copyRigth: 'all rights to the content are reserved to VNATOR',
+  copyRight: 'All rights to the content are reserved to VNATOR',
   externalLinks: {
     [CHANEL.LINKEDIN]: 'linkedin vnator company',
     [CHANEL.STACKSHARE]: 'vnator stack tecnology',

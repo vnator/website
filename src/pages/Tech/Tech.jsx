@@ -50,7 +50,6 @@ import {
   IconHibernate,
   IconSequelize,
   IconPostCss,
-  IconApollo,
   IconPwa,
   IconWasm,
   IconElm,
@@ -88,6 +87,7 @@ const Tech = () => {
           <ul className={`${style.list} ${style._center}`}>
             <li className={style.item}>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://jwt.io/"
                 className={`__reset ${style.link}`}>
@@ -96,6 +96,7 @@ const Tech = () => {
             </li>
             <li className={style.item}>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://aws.amazon.com/"
                 className={`__reset ${style.link}`}>
@@ -104,6 +105,7 @@ const Tech = () => {
             </li>
             <li className={style.item}>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://www.vim.org/"
                 className={`__reset ${style.link}`}>
@@ -112,6 +114,7 @@ const Tech = () => {
             </li>
             <li className={style.item}>
               <a
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://www.archlinux.org/"
                 className={`__reset ${style.link}`}>
@@ -121,6 +124,7 @@ const Tech = () => {
             <li className={style.item}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://duckduckgo.com/?t=hp"
                 className={`__reset ${style.link}`}>
                 <IconDuckDuckGo className={style.icon} />
@@ -129,6 +133,7 @@ const Tech = () => {
             <li className={style.item}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://git-scm.com/"
                 className={`__reset ${style.link}`}>
                 <IconGit className={style.icon} />
@@ -137,6 +142,7 @@ const Tech = () => {
             <li className={style.item}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.mozilla.org/pt-BR/firefox/new/?redirect_source=firefox-com"
                 className={`__reset ${style.link}`}>
                 <IconFirefox className={style.icon} />
@@ -145,6 +151,7 @@ const Tech = () => {
             <li className={style.item}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.shopify.com/"
                 className={`__reset ${style.link}`}>
                 <IconShopify className={style.icon} />
@@ -153,6 +160,7 @@ const Tech = () => {
             <li className={style.item}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://code.visualstudio.com/"
                 className={`__reset ${style.link}`}>
                 <IconVSCode className={style.icon} />
@@ -161,6 +169,7 @@ const Tech = () => {
             <li className={style.item}>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://circleci.com/"
                 className={`__reset ${style.link}`}>
                 <IconCircleCi className={style.icon} />
@@ -193,6 +202,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kafka.apache.org/"
                   className={`__reset ${style.link}`}>
                   <IconKafka className={style.icon} />
@@ -201,6 +211,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://serverless.com/"
                   className={`__reset ${style.link}`}>
                   <IconServerless className={style.icon} />
@@ -209,6 +220,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/api-gateway/"
                   className={`__reset ${style.link}`}>
                   <IconApiGateway className={style.icon} />
@@ -217,6 +229,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/cloudfront/"
                   className={`__reset ${style.link}`}>
                   <IconCloudFront className={style.icon} />
@@ -225,6 +238,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/cognito/"
                   className={`__reset ${style.link}`}>
                   <IconCognito className={style.icon} />
@@ -233,6 +247,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/ec2/"
                   className={`__reset ${style.link}`}>
                   <IconEC2 className={style.icon} />
@@ -241,6 +256,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/route53/"
                   className={`__reset ${style.link}`}>
                   <IconRoute53 className={style.icon} />
@@ -249,6 +265,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/s3/"
                   className={`__reset ${style.link}`}>
                   <IconS3 className={style.icon} />
@@ -257,6 +274,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/amplify/"
                   className={`__reset ${style.link}`}>
                   <IconAmplify className={style.icon} />
@@ -265,6 +283,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/cloudformation/"
                   className={`__reset ${style.link}`}>
                   <IconCloudFormation className={style.icon} />
@@ -273,6 +292,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/lambda/"
                   className={`__reset ${style.link}`}>
                   <IconLambda className={style.icon} />
@@ -281,6 +301,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.docker.com/"
                   className={`__reset ${style.link}`}>
                   <IconDocker className={style.icon} />
@@ -289,6 +310,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://graphql.org/"
                   className={`__reset ${style.link}`}>
                   <IconGraphQl className={style.icon} />
@@ -297,6 +319,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kubernetes.io/"
                   className={`__reset ${style.link}`}>
                   <IconKubernetes className={style.icon} />
@@ -339,6 +362,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="http://www.cplusplus.com/"
                   className={`__reset ${style.link}`}>
                   <IconCpp className={style.icon} />
@@ -347,6 +371,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.haskell.org/"
                   className={`__reset ${style.link}`}>
                   <IconHaskell className={style.icon} />
@@ -355,6 +380,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://nodejs.org"
                   className={`__reset ${style.link}`}>
                   <IconNodeJs className={style.icon} />
@@ -363,6 +389,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.tcl.tk/"
                   className={`__reset ${style.link}`}>
                   <IconTcl className={style.icon} />
@@ -371,6 +398,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.python.org/"
                   className={`__reset ${style.link}`}>
                   <IconPython className={style.icon} />
@@ -379,6 +407,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.java.com"
                   className={`__reset ${style.link}`}>
                   <IconJava className={style.icon} />
@@ -387,6 +416,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.rust-lang.org/"
                   className={`__reset ${style.link}`}>
                   <IconRust className={style.icon} />
@@ -438,6 +468,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.mysql.com/"
                   className={`__reset ${style.link}`}>
                   <IconMySql className={style.icon} />
@@ -446,6 +477,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.microsoft.com/en-us/sql-server"
                   className={`__reset ${style.link}`}>
                   <IconSqlServer className={style.icon} />
@@ -454,6 +486,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.postgresql.org/"
                   className={`__reset ${style.link}`}>
                   <IconPostgres className={style.icon} />
@@ -462,6 +495,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/rds/aurora/"
                   className={`__reset ${style.link}`}>
                   <IconAurora className={style.icon} />
@@ -470,6 +504,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://redis.io/"
                   className={`__reset ${style.link}`}>
                   <IconRedis className={style.icon} />
@@ -478,6 +513,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://aws.amazon.com/pt/dynamodb/"
                   className={`__reset ${style.link}`}>
                   <IconDynamo className={style.icon} />
@@ -486,6 +522,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.djangoproject.com/"
                   className={`__reset ${style.link}`}>
                   <IconDjango className={style.icon} />
@@ -494,6 +531,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://hibernate.org/"
                   className={`__reset ${style.link}`}>
                   <IconHibernate className={style.icon} />
@@ -502,6 +540,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://sequelize.org/"
                   className={`__reset ${style.link}`}>
                   <IconSequelize className={style.icon} />
@@ -510,6 +549,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.mongodb.com/"
                   className={`__reset ${style.link}`}>
                   <IconMongo className={style.icon} />
@@ -543,6 +583,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://webassembly.org/"
                   className={`__reset ${style.link}`}>
                   <IconWasm className={style.icon} />
@@ -551,6 +592,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.ecma-international.org/publications/standards/Ecma-262.htm"
                   className={`__reset ${style.link}`}>
                   <IconJavascript className={style.icon} />
@@ -559,6 +601,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://elm-lang.org/"
                   className={`__reset ${style.link}`}>
                   <IconElm className={style.icon} />
@@ -567,6 +610,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.typescriptlang.org/"
                   className={`__reset ${style.link}`}>
                   <IconTypescript className={style.icon} />
@@ -575,6 +619,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://pt-br.reactjs.org/"
                   className={`__reset ${style.link}`}>
                   <IconReact className={style.icon} />
@@ -583,6 +628,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://redux.js.org/"
                   className={`__reset ${style.link}`}>
                   <IconRedux className={style.icon} />
@@ -592,6 +638,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://developers.google.com/web/progressive-web-apps//"
                   className={`__reset ${style.link}`}>
                   <IconPwa className={style.icon} />
@@ -600,6 +647,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://postcss.org/"
                   className={`__reset ${style.link}`}>
                   <IconPostCss className={style.icon} />
@@ -608,6 +656,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
                   className={`__reset ${style.link}`}>
                   <IconCss className={style.icon} />
@@ -616,6 +665,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
                   className={`__reset ${style.link}`}>
                   <IconHtml className={style.icon} />
@@ -624,6 +674,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://eslint.org/"
                   className={`__reset ${style.link}`}>
                   <IconEslint className={style.icon} />
@@ -632,6 +683,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://jestjs.io/"
                   className={`__reset ${style.link}`}>
                   <IconJest className={style.icon} />
@@ -640,6 +692,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.npmjs.com/"
                   className={`__reset ${style.link}`}>
                   <IconNpm className={style.icon} />
@@ -648,6 +701,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://yarnpkg.com"
                   className={`__reset ${style.link}`}>
                   <IconYarn className={style.icon} />
@@ -656,6 +710,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://webpack.js.org/"
                   className={`__reset ${style.link}`}>
                   <IconWebpack className={style.icon} />
@@ -676,6 +731,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://dart.dev/"
                   className={`__reset ${style.link}`}>
                   <IconDart className={style.icon} />
@@ -684,6 +740,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://flutter.dev/"
                   className={`__reset ${style.link}`}>
                   <IconFlutter className={style.icon} />
@@ -692,6 +749,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://developer.android.com/"
                   className={`__reset ${style.link}`}>
                   <IconAndroid className={style.icon} />
@@ -700,6 +758,7 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kotlinlang.org/"
                   className={`__reset ${style.link}`}>
                   <IconKotlin className={style.icon} />
