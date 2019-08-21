@@ -14,7 +14,8 @@
 .header {
   text-align: center;
   margin: var(--space-extra);
-  color: var(--even);
+  text-shadow: var(--text-shadow-double);
+  color: var(--even-dark);
 }
 
 .list {
@@ -32,6 +33,7 @@
   border-radius: var(--radius-base);
   line-height: var(--line-height-large);
   color: var(--grey-5);
+  box-shadow: var(--shadow-card);
 }
 
 .card header {

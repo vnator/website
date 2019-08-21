@@ -1,4 +1,6 @@
 .Paragraph {
   font-family: var(--font-text);
   font-size: var(--body);
+  margin: calc(var(--space-large) * 2) 0;
+  line-height: var(--line-height-base);
 }

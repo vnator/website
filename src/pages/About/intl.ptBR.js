@@ -38,9 +38,9 @@ const about_ptBR = {
         'Seja ela obtida pelo trabalho, estudo ou observação, a experiencia sempre tem valor. Por isso temos uma ideia que nos acompanha a cada empreitada, <quote>talvez essa jornada tenha um bau cheio de tesouros no final, talvez esse premio final nem tenha tanto valor assim. Mas com toda certeza essa campanha ira nos trazer muita da nossa valioza expenriencia.</quote>',
     },
     faith: {
-      title: 'Faith',
+      title: 'Fé',
       paragraph:
-        'Nos matém seguindo em frente independente da dificuldade, acreditamos que o importante é a honestidade. Mesmo que esse seja o caminho mais difícil vamos seguilo se for o caminho correto, podemos não entender os planos de Deus, mas compreendemos seu amor, por isso nos mantemos fieis em Cristo.',
+        'Cristo Nos matém seguindo em frente independente da dificuldade, acreditamos que o importante é a honestidade. Mesmo que esse seja o caminho mais difícil vamos seguilo se for o caminho correto, podemos não entender os planos de Deus, mas compreendemos seu amor, por isso nos mantemos fieis em Cristo.',
     },
   },
 };
