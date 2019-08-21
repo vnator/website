@@ -49,6 +49,22 @@ import {
   IconDjango,
   IconHibernate,
   IconSequelize,
+  IconPostCss,
+  IconApollo,
+  IconPwa,
+  IconWasm,
+  IconElm,
+  IconCss,
+  IconEslint,
+  IconHtml,
+  IconJavascript,
+  IconJest,
+  IconNpm,
+  IconReact,
+  IconRedux,
+  IconTypescript,
+  IconWebpack,
+  IconYarn,
 } from '../../components/Icon';
 
 const Tech = () => {
@@ -518,6 +534,130 @@ const Tech = () => {
             <Paragraph>
               {formatMessage({ id: 'tech.frontend.web.paragraph.libraries' })}
             </Paragraph>
+
+            <ul className={`${style.list} ${style._end}`}>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://webassembly.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconWasm className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.ecma-international.org/publications/standards/Ecma-262.htm"
+                  className={`__reset ${style.link}`}>
+                  <IconJavascript className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://elm-lang.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconElm className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.typescriptlang.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconTypescript className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://pt-br.reactjs.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconReact className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://redux.js.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconRedux className={style.icon} />
+                </a>
+              </li>
+
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://developers.google.com/web/progressive-web-apps//"
+                  className={`__reset ${style.link}`}>
+                  <IconPwa className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://postcss.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconPostCss className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+                  className={`__reset ${style.link}`}>
+                  <IconCss className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+                  className={`__reset ${style.link}`}>
+                  <IconHtml className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://eslint.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconEslint className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://jestjs.io/"
+                  className={`__reset ${style.link}`}>
+                  <IconJest className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.npmjs.com/"
+                  className={`__reset ${style.link}`}>
+                  <IconNpm className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://yarnpkg.com"
+                  className={`__reset ${style.link}`}>
+                  <IconYarn className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://webpack.js.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconWebpack className={style.icon} />
+                </a>
+              </li>
+            </ul>
           </article>
 
           <article className={style.article}>

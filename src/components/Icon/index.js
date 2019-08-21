@@ -64,3 +64,21 @@ export { IconDjango } from './IconDjango';
 export { IconMongo } from './IconMongo';
 export { IconPostgres } from './IconPostgres';
 export { IconRedis } from './IconRedis';
+
+// frontend
+export { IconPostCss } from './IconPostCss';
+export { IconApollo } from './IconApollo';
+export { IconPwa } from './IconPwa';
+export { IconWasm } from './IconWasm';
+export { IconElm } from './IconElm';
+export { IconCss } from './IconCss';
+export { IconEslint } from './IconEslint';
+export { IconHtml } from './IconHtml';
+export { IconJavascript } from './IconJavascript';
+export { IconJest } from './IconJest';
+export { IconNpm } from './IconNpm';
+export { IconReact } from './IconReact';
+export { IconRedux } from './IconRedux';
+export { IconTypescript } from './IconTypescript';
+export { IconWebpack } from './IconWebpack';
+export { IconYarn } from './IconYarn';
