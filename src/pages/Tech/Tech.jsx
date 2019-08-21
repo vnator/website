@@ -39,6 +39,16 @@ import {
   IconJava,
   IconPython,
   IconRust,
+  IconMySql,
+  IconPostgres,
+  IconSqlServer,
+  IconAurora,
+  IconMongo,
+  IconRedis,
+  IconDynamo,
+  IconDjango,
+  IconHibernate,
+  IconSequelize,
 } from '../../components/Icon';
 
 const Tech = () => {
@@ -309,6 +319,14 @@ const Tech = () => {
               <li className={style.item}>
                 <a
                   target="_blank"
+                  href="http://www.cplusplus.com/"
+                  className={`__reset ${style.link}`}>
+                  <IconCpp className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
                   href="https://www.haskell.org/"
                   className={`__reset ${style.link}`}>
                   <IconHaskell className={style.icon} />
@@ -395,6 +413,89 @@ const Tech = () => {
                 id: 'tech.backend.persistence.paragraph.orm',
               })}
             </Paragraph>
+
+            <ul className={`${style.list} ${style._end}`}>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.mysql.com/"
+                  className={`__reset ${style.link}`}>
+                  <IconMySql className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.microsoft.com/en-us/sql-server"
+                  className={`__reset ${style.link}`}>
+                  <IconSqlServer className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.postgresql.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconPostgres className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://aws.amazon.com/pt/rds/aurora/"
+                  className={`__reset ${style.link}`}>
+                  <IconAurora className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://redis.io/"
+                  className={`__reset ${style.link}`}>
+                  <IconRedis className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://aws.amazon.com/pt/dynamodb/"
+                  className={`__reset ${style.link}`}>
+                  <IconDynamo className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.djangoproject.com/"
+                  className={`__reset ${style.link}`}>
+                  <IconDjango className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://hibernate.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconHibernate className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://sequelize.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconSequelize className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://www.mongodb.com/"
+                  className={`__reset ${style.link}`}>
+                  <IconMongo className={style.icon} />
+                </a>
+              </li>
+            </ul>
           </article>
         </div>
         <div className={style.frontend}>

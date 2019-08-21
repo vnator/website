@@ -52,3 +52,15 @@ export { IconJava } from './IconJava';
 export { IconHaskell } from './IconHaskell';
 export { IconPython } from './IconPython';
 export { IconRust } from './IconRust';
+
+// persistence
+export { IconMySql } from './IconMySql';
+export { IconHibernate } from './IconHibernate';
+export { IconSequelize } from './IconSequelize';
+export { IconSqlServer } from './IconSqlServer';
+export { IconAurora } from './IconAurora';
+export { IconDynamo } from './IconDynamo';
+export { IconDjango } from './IconDjango';
+export { IconMongo } from './IconMongo';
+export { IconPostgres } from './IconPostgres';
+export { IconRedis } from './IconRedis';
