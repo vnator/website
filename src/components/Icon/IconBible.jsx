@@ -9,7 +9,7 @@ const IconBible = ({ className, ...props }) => {
 
   return (
     <Svg {...props} className={className}>
-      <title>{formatMessage({ id: 'icons.figure.bible' })}</title>
+      <title>{formatMessage({ id: 'icon.figure.bible' })}</title>
       <path
         fill="#f95428"
         d="M10.7 27.397h-1.364v3.935c0 0.164 0.187 0.257 0.318 0.159l1.046-0.784 1.046 0.784c0.131 0.098 0.318 0.005 0.318-0.159v-3.935h-1.364z"

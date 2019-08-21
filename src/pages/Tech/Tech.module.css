@@ -1,3 +1,115 @@
+.Tech {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  margin: var(--space-extra) 0;
+  width: var(--width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 680px;
+  text-align: center;
+  color: var(--grey-4);
+}
+
+.main h2 {
+  color: var(--even-dark);
+  text-shadow: var(--text-shadow-double);
+}
+.main p {
+  line-height: var(--line-height-large);
+}
+
+/* BACKEND */
+.backend > header h3 {
+  color: var(--main);
+}
+
+.backend .article h4,
+.backend > header p {
+  color: var(--main-dark);
+}
+
+/* FRONTEND */
+
+.frontend > header h3 {
+  color: var(--even);
+}
+
+.frontend .article h4,
+.frontend .article h5,
+.frontend > header p {
+  color: var(--even-dark);
+}
+
+/* GENERAL */
+.list {
+  --icon-scale: scale(1.4);
+
+  display: flex;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+._center {
+  align-items: center;
+  justify-content: center;
+}
+
+._end {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.item {
+  margin: var(--space-base);
+}
+
+.list .item:first-child {
+  margin-left: 0;
+}
+
+.list .item:last-child {
+  margin-right: 0;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.link:hover .icon {
+  transform: var(--icon-scale);
+}
+
+.article {
+  color: var(--grey-3);
+  margin: calc(var(--space-extra) * 2) 0;
+}
+
+.article p {
+  margin: var(--space-base) 0;
+}
+
+.article p::first-letter {
+  margin: var(--space-base) 0;
+  margin-left: var(--space-base);
+}
+
 .quote {
   color: var(--quote);
 }
@@ -5,4 +117,10 @@
 .quote::before,
 .quote::after {
   content: '"';
+}
+
+@media screen and (min-width: 100em) {
+  .container {
+    width: var(--width-full);
+  }
 }

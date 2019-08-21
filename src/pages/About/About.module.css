@@ -116,3 +116,9 @@
     min-height: 200px;
   }
 }
+
+@media screen and (min-width: 100em) {
+  .container {
+    width: var(--width-full);
+  }
+}

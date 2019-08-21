@@ -1,5 +1,6 @@
 const tech_ptBR = {
   title: 'Tecnologia',
+  subtitle: 'Escopo',
   paragraph:
     'A VNATOR é composta por profissionais com mais de 10 anos de experiência na área de tecnologia como arquitetos de software e desenvolvedores, com conhecimento profundo das tecnologias fundamentais que compõem um produto web do lado do servidor(Backend), cliente(Frontend) e dos protocolos de comunicação que podem ser utilizados(http, tcp, websockets…).',
   backend: {

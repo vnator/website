@@ -7,10 +7,18 @@ const icon_enUS = {
     medium: 'Medium',
     stackshare: 'Stackshare',
   },
-  development: {
+  dev: {
     git: 'git',
     arch: 'Arch',
     circleCI: 'CircliCi',
+    jwt: 'JWT',
+    vim: 'Vim',
+    aws: 'AWS Amazon Web Service',
+    arch: 'Arch Linux',
+    firefox: 'Mozilla Firefox',
+    duckduckgo: 'Duck Duck Go Search Engine',
+    vscode: 'VSCode',
+    shopify: 'Shopify',
   },
   archtectural: {
     kafka: 'Kafka',
@@ -21,7 +29,6 @@ const icon_enUS = {
     kubernetes: 'Kubernetes',
     awsS3: 'AWS S3',
     awsCloudformation: 'AWS Cloudformation',
-    awsCognito: 'AWS Cognito',
     awsApiGateway: 'AWS API Gateway',
     awsAmplify: 'AWS Amplify',
     awsCloudfront: 'AWS Cloudfront',
@@ -31,11 +38,12 @@ const icon_enUS = {
   },
   languages: {
     rust: 'Rust',
-    javascript: 'Javascript',
+    nodeJs: 'nodeJS',
     java: 'Java',
     python: 'Python',
     haskell: 'Haskell',
     tcl: 'TCL',
+    c: 'C/C++',
   },
   persistence: {
     postgres: 'PostgreSQL',

@@ -9,7 +9,7 @@ const IconTelescope = ({ className, ...props }) => {
 
   return (
     <Svg {...props} className={className}>
-      <title>{formatMessage({ id: 'icons.figure.telescope' })}</title>
+      <title>{formatMessage({ id: 'icon.figure.telescope' })}</title>
       <path
         fill="#b3b0b5"
         d="M11.444 11.656l-1.050-3.338 11.779-3.708 2.371 7.533-7.583 2.387z"

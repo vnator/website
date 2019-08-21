@@ -9,7 +9,7 @@ const IconSword = ({ className, ...props }) => {
 
   return (
     <Svg {...props} className={className}>
-      <title>{formatMessage({ id: 'icons.figure.sword' })}</title>
+      <title>{formatMessage({ id: 'icon.figure.sword' })}</title>
       <path
         fill="#aab2bd"
         d="M19.097 19.097v2.581l-1.032 1.032-17.548-16.516v-5.677z"

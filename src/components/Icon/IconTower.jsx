@@ -9,7 +9,7 @@ const IconTower = ({ className, ...props }) => {
 
   return (
     <Svg {...props} className={className}>
-      <title>{formatMessage({ id: 'icons.figure.tower' })}</title>
+      <title>{formatMessage({ id: 'icon.figure.tower' })}</title>
       <path
         fill="#b6bccf"
         d="M14.438 3.688v-3.125h-3.125v3.125h-3.125v-3.125h-3.125v6.25c0 0.344 0.281 0.625 0.625 0.625h20.625c0.344 0 0.625-0.281 0.625-0.625v-6.25h-3.125v3.125h-3.125v-3.125h-3.125v3.125z"

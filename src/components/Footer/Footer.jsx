@@ -21,19 +21,14 @@ let Footer = () => {
     switch (social) {
       case CHANEL.GITHUB:
         return <IconGithub className={style.icon} />;
-        break;
       case CHANEL.LINKEDIN:
         return <IconLinkedin className={style.icon} />;
-        break;
       case CHANEL.STACKSHARE:
         return <IconStackshare className={style.icon} />;
-        break;
       case CHANEL.MEDIUM:
         return <IconMedium className={style.icon} />;
-        break;
       default:
         return <IconEmail className={style.icon} />;
-        break;
     }
   };
 

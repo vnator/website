@@ -1,5 +1,6 @@
 const tech_enUS = {
   title: 'Technology',
+  subtitle: 'Scope',
   paragraph:
     'VNATOR is composed for professionals with more than 10 years of  experience in technology information as software architects and developers, with lot of knowledge of core technologies that make up a server-side(Backend), client-side of web product(Frontend) and communication protocols that can be used (http, tcp, websockets…).',
   backend: {

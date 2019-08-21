@@ -9,7 +9,7 @@ const IconCarpenter = ({ className, ...props }) => {
 
   return (
     <Svg {...props} className={className}>
-      <title>{formatMessage({ id: 'icons.figure.carpenter' })}</title>
+      <title>{formatMessage({ id: 'icon.figure.carpenter' })}</title>
       <path fill="#d7d7e6" d="M10.808 16.375h-5.058v-15.75h7.683z" />
       <path fill="#ff8c8c" d="M12.509 6.17l0.924-5.545h-7.683v5.545z" />
       <path fill="#fff" d="M11.125 0.625l-0.437 2.75h-2.627v-2.75z" />
