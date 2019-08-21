@@ -4,7 +4,7 @@ import { useIntl } from 'react-intl';
 import { Banner } from '../../components/Banner/Banner';
 import { Title } from '../../components/Title/Title';
 import { Paragraph } from '../../components/Paragraph/Paragraph';
-import imgDesktop from '../../img/banner-tech-desktop.jpeg';
+import imgDesktop from '../../img/banner-tech-desktop.jpg';
 import imgMobile from '../../img/banner-tech-mobile.jpeg';
 import style from './Tech.module.css';
 import {

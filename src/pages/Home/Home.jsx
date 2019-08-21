@@ -26,6 +26,7 @@ const Home = () => {
         content={formatMessage({ id: 'home.banner.paragraph' })}
         img={{ desktop: imgDesktop, mobile: imgMobile }}
         status={BANNER_STATUS.END}
+        white
       />
       <main role={ROLE.MAIN} className={style.grid}>
         <header className={style.header}>
