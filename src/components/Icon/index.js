@@ -82,3 +82,9 @@ export { IconRedux } from './IconRedux';
 export { IconTypescript } from './IconTypescript';
 export { IconWebpack } from './IconWebpack';
 export { IconYarn } from './IconYarn';
+
+// mobile
+export { IconDart } from './IconDart';
+export { IconAndroid } from './IconAndroid';
+export { IconFlutter } from './IconFlutter';
+export { IconKotlin } from './IconKotlin';

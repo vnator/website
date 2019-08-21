@@ -65,6 +65,10 @@ import {
   IconTypescript,
   IconWebpack,
   IconYarn,
+  IconDart,
+  IconAndroid,
+  IconFlutter,
+  IconKotlin,
 } from '../../components/Icon';
 
 const Tech = () => {
@@ -667,6 +671,41 @@ const Tech = () => {
             <Paragraph>
               {formatMessage({ id: 'tech.frontend.mobile.paragraph' })}
             </Paragraph>
+
+            <ul className={`${style.list} ${style._end}`}>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://dart.dev/"
+                  className={`__reset ${style.link}`}>
+                  <IconDart className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://flutter.dev/"
+                  className={`__reset ${style.link}`}>
+                  <IconFlutter className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://developer.android.com/"
+                  className={`__reset ${style.link}`}>
+                  <IconAndroid className={style.icon} />
+                </a>
+              </li>
+              <li className={style.item}>
+                <a
+                  target="_blank"
+                  href="https://kotlinlang.org/"
+                  className={`__reset ${style.link}`}>
+                  <IconKotlin className={style.icon} />
+                </a>
+              </li>
+            </ul>
           </article>
 
           <article className={style.article}>
