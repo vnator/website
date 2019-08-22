@@ -1,5 +1,6 @@
 :root {
   /* Margins and Paddings */
+  --zero: 0;
   --space-small: 3px;
   --space-base: 8px;
   --space-large: 20px;
@@ -11,8 +12,9 @@
   --border-large: 6x;
 
   /* Container width */
-  --width: 88vw;
-  --width-full: 1600px;
+  --container-margin: 6vw;
+  --width: calc(100vw - (var(--container-margin) * 2));
+  --width-full: 1180px;
   --width-tablet: 92vw;
   --width-mobile: 96vw;
 
@@ -21,4 +23,15 @@
   --radius-base: 6px;
   --radius-large: 16px;
   --radius-extra: 50%;
+
+  /* template difinitions */
+  --header-height: 150px;
+  --header-height-small: 80px;
+}
+
+@media screen and (max-width: 61.25em) {
+  :root {
+    /* template difinitions */
+    --header-height: 80px;
+  }
 }

@@ -5,15 +5,14 @@ const home_enUS = {
       'Analysis, Architecture and Development of specialized web applications.',
   },
   grid: {
-    title:
-      'independently of the project, we will accept the challenge and give the results.',
+    title: 'Crafting',
     analyze: {
       title: 'Analysis',
       paragraph:
         'Understand the business and your target audience to present the best solution to develop a product.',
     },
     architect: {
-      title: 'Architecture',
+      title: 'Engineering',
       paragraph:
         'To design the application thinking about the better way to reach your goals and to have a easy maintenance.',
     },

@@ -1,30 +1,31 @@
 import { ROLE } from './elementAttr';
+import { CHANEL } from './chanel';
 
-const SOCIAL = Object.freeze({
+const LINKS = Object.freeze({
   LINKEDIN: Object.freeze({
     target: '_blank',
     href: 'https://www.linkedin.com/company/vnator',
-    rel: 'linkedin',
+    rel: CHANEL.LINKEDIN,
     role: ROLE.LINK,
   }),
   STACKSHARE: Object.freeze({
     target: '_blank',
     href: 'https://stackshare.io/vnator/vnator/main',
-    rel: 'stackshare',
-    role: ROLE.LINK,
-  }),
-  MAIL: Object.freeze({
-    target: '_blank',
-    href: 'mailto:contato@vnator.com',
-    rel: 'email',
+    rel: CHANEL.STACKSHARE,
     role: ROLE.LINK,
   }),
   GITHUB: Object.freeze({
     target: '_blank',
     href: 'https://github.com/vnator',
-    rel: 'github',
+    rel: CHANEL.GITHUB,
+    role: ROLE.LINK,
+  }),
+  MAIL: Object.freeze({
+    target: '_blank',
+    href: 'mailto:contato@vnator.com',
+    rel: CHANEL.EMAIL,
     role: ROLE.LINK,
   }),
 });
 
-export { SOCIAL };
+export { LINKS };

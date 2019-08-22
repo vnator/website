@@ -22,6 +22,7 @@ const contact_ptBR = {
         placeholder: 'Deixe sua mensagem',
       },
     },
+    submit: 'enviar',
     hint: {
       [HINT.EMAIL]: 'digite um e-mail valido',
       [HINT.MIN]: 'mínimo {number} caracteres',

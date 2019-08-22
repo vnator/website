@@ -22,6 +22,7 @@ const contact_enUS = {
         placeholder: 'Type your message',
       },
     },
+    submit: 'submit',
     hint: {
       [HINT.EMAIL]: 'type a valid e-mail',
       [HINT.MIN]: 'min {number} chars',

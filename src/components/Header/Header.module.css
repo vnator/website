@@ -1,24 +1,128 @@
 .Header {
+  --btn-width: 40px;
+  --btn-height: 45px;
+  --translate-to-left: translateX(-5px);
+  --translate-to-right: translateX(5px);
+
+  --alternate: var(--main-dark);
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: var(--z-header);
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--width);
+  position: relative;
 }
 
 .pageTitle {
+  margin: var(--zero);
+  line-height: var(--line-height-small);
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+  transition: var(--transition);
 }
 
 .button {
+  position: absolute;
+  right: 0;
+  width: var(--btn-width);
+  height: var(--btn-height);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-/* Provisory */
-.inDevelopmentAlert {
-  --rotate: rotateZ(45deg);
+.bar {
+  transition: var(--transition-over-box);
+  display: block;
+  width: var(--btn-width);
+  height: 4px;
+  border-radius: 0.1em;
+  background: var(--white);
+  margin: 5px 0;
+}
 
-  background: var(--warn);
-  padding: var(--space-base);
-  color: var(--white-full);
-  font-family: var(--code);
-  width: 500px;
-  position: fixed;
-  right: -150px;
-  top: 100px;
-  text-align: center;
-  transform: var(--rotate);
+.bar:first-child {
+  margin-top: 0;
+}
+
+.bar:last-child {
+  margin-bottom: 0;
+}
+
+.button:hover .bar._left {
+  transform: var(--translate-to-left);
+}
+
+.button:hover .bar._right {
+  transform: var(--translate-to-right);
+}
+
+/* scrolled */
+._scrolled {
+  --btn-width: 32px;
+  --btn-height: 38.5px;
+
+  background: var(--main);
+  height: var(--header-height-small);
+}
+
+._scrolled .logo {
+  fill: var(--white);
+  height: 40px !important;
+}
+
+._scrolled .bar {
+  height: 3px;
+  margin: 4px 0;
+}
+
+@media screen and (max-width: 61.25em) {
+  .logo {
+    height: auto;
+    width: 140px;
+  }
+
+  .Header {
+    --btn-width: 32px;
+    --btn-height: 38.5px;
+    padding-left: var(--container-margin);
+    box-sizing: border-box;
+  }
+
+  .container {
+    justify-content: flex-start;
+  }
+
+  .bar {
+    height: 3px;
+    margin: 4px 0;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .Header {
+    padding: 0;
+  }
+
+  .container {
+    width: var(--width-full);
+  }
 }

@@ -1,0 +1,148 @@
+.Contact {
+  --rotate: rotate(360deg);
+
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.super {
+  top: calc(var(--header-height) + var(--space-large));
+  left: 0;
+  position: absolute;
+  z-index: var(--z-dialog);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  margin: var(--space-extra) 0;
+  width: var(--width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.legend {
+  color: var(--white);
+  font-size: var(--h4);
+  text-align: center;
+  width: 100%;
+  margin: var(--space-base) 0;
+  font-family: var(--font-title);
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line > * {
+  max-width: calc(50% - var(--space-base));
+}
+
+.label {
+  color: var(--white);
+  font-family: var(--font-title);
+  margin-bottom: var(--space-base);
+}
+
+.inputBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: var(--space-large) 0;
+}
+
+.inputBox input,
+.inputBox textarea {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  height: 32px;
+  padding: var(--space-base);
+  box-sizing: border-box;
+  font-size: var(--quote);
+  font-family: var(--font-text);
+  color: var(--grey-4);
+}
+
+.inputBox textarea {
+  height: 80px;
+}
+
+.submit {
+  background: var(--main);
+  border: 0;
+  height: 40px;
+  font-family: var(--font-title);
+  color: var(--main-dark);
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit:hover {
+  background: var(--main-dark);
+  color: var(--main-ligth);
+}
+
+.rotate {
+  width: 20px;
+  fill: white;
+  animation: spin 1.4s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: var(--rotate);
+  }
+}
+
+@media screen and (max-width: 61.25em) {
+  .super {
+    top: var(--header-height-small);
+  }
+
+  .container {
+    margin-top: var(--space-large);
+  }
+
+  .form {
+    width: 92vw;
+  }
+
+  .legend {
+    margin-top: 0;
+    margin-bottom: var(--space-large);
+  }
+
+  .line {
+    flex-direction: column;
+  }
+  .line > * {
+    max-width: none;
+  }
+
+  .inputBox {
+    margin: var(--space-base) 0;
+  }
+
+  .submit {
+    margin-top: var(--space-base);
+  }
+}

@@ -1,12 +1,13 @@
-import { SOCIAL } from '../../constants/externalLinks';
+import { CHANEL } from '../../constants/chanel';
 
 const footer_enUS = {
-  copyRigth: 'all rights to the content are reserved to VNATOR',
+  copyRight: 'All rights to the content are reserved to VNATOR',
   externalLinks: {
-    [SOCIAL.LINKEDIN.rel]: 'linkedin vnator company',
-    [SOCIAL.STACKSHARE.rel]: 'vnator stack tecnology',
-    [SOCIAL.MAIL.rel]: 'vnator email contact',
-    [SOCIAL.GITHUB.rel]: 'vnator github organization',
+    [CHANEL.LINKEDIN]: 'linkedin vnator company',
+    [CHANEL.STACKSHARE]: 'vnator stack tecnology',
+    [CHANEL.EMAIL]: 'vnator email contact',
+    [CHANEL.GITHUB]: 'vnator github organization',
+    [CHANEL.MEDIUM]: 'vnator news',
   },
 };
 

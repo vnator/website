@@ -5,3 +5,14 @@
 @import './measures.css';
 @import './resets.css';
 @import './font-face.css';
+@import './z-index.css';
+
+body,
+#app {
+  box-sizing: border-box;
+  display: block;
+}
+
+a {
+  color: var(--odd);
+}

@@ -1,10 +1,10 @@
 const about_ptBR = {
-  title: 'Sobre nos',
+  title: 'Sobre Nós',
   profile: {
     title: 'Perfil',
     paragraph: {
       intro:
-        "Gostamos de nos definir como 'Artesãos de Software', nao querendo parecer arrogantes, talves pretenciosos mas a intencao é apenas expor a nossa preocupacao com os detalhes.",
+        "Gostamos de nos definir como 'Artesãos de Software', não querendo parecer arrogantes, talves pretenciosos mas a intencao é apenas expor a nossa preocupacao com os detalhes.",
       main:
         'Faremos o possivel para que o produto seja analisado, arquitetado e desenvolvido da melhor forma possivel, focamos na infra estrutura, padroes e boas praticas, testes e manutenabilidade. Ainda posso acrescentar que tudo isso será feito de forma transparente e organizada, demonstrando compromisso com o trabalho.',
     },
@@ -35,12 +35,12 @@ const about_ptBR = {
     experience: {
       title: 'Experiência',
       paragraph:
-        'A experiencia é aquilo que mais valorizamos, seja ela obtida pelo trabalho, estudo ou observação. Por isso temos uma ideia que nos acompanha a cada empreitada, <quote>talvez essa jornada tenha um bau cheio de tesouros no final, talvez esse premio final nem tenha tanto valor assim. Mas com toda certeza essa campanha ira nos trazer muita da nossa valioza expenriencia.</quote>',
+        'Seja ela obtida pelo trabalho, estudo ou observação, a experiencia sempre tem valor. Por isso temos uma ideia que nos acompanha a cada empreitada, <quote>talvez essa jornada tenha um bau cheio de tesouros no final, talvez esse premio final nem tenha tanto valor assim. Mas com toda certeza essa campanha ira nos trazer muita da nossa valioza expenriencia.</quote>',
     },
     faith: {
-      title: 'Faith',
+      title: 'Fé',
       paragraph:
-        'A fé é o que nos matém seguindo em frente independente da dificuldade, acreditamos que o importante é a honestidade. Mesmo que esse seja o caminho mais difícil vamos seguilo se for o caminho correto, podemos não entender os planos de Deus, mas compreendemos seu amor, por isso nos mantemos fieis em Cristo.',
+        'Cristo Nos matém seguindo em frente independente da dificuldade, acreditamos que o importante é a honestidade. Mesmo que esse seja o caminho mais difícil vamos seguilo se for o caminho correto, podemos não entender os planos de Deus, mas compreendemos seu amor, por isso nos mantemos fieis em Cristo.',
     },
   },
 };

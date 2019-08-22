@@ -1,3 +1,97 @@
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  margin: var(--space-extra) 0;
+  width: var(--width);
+}
+
+.main {
+  margin-bottom: calc(var(--space-extra) * 2);
+  color: var(--grey-4);
+}
+
+.main header {
+  color: var(--even);
+}
+
+.values {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.values > header {
+  text-align: center;
+  max-width: 740px;
+  color: var(--even-dark);
+  text-shadow: var(--text-shadow-double);
+}
+
+.values > header p {
+  color: var(--grey-6);
+  font-style: italic;
+  text-shadow: none;
+}
+
+.pillar {
+  display: flex;
+  margin: var(--space-extra) 0;
+  border: 1px solid var(--grey-7);
+  box-shadow: var(--shadow-card);
+}
+
+.values .pillar:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.pillar header {
+  padding: var(--space-large);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+  min-width: 240px;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  background: var(--grey-7);
+}
+
+.pillar header h3 {
+  background-color: var(--grey-4);
+  background-clip: text;
+  color: var(--glass);
+  margin: 0;
+  text-shadow: var(--text-shadow-inner);
+}
+
+.pillar > div {
+  padding: var(--space-large);
+  color: var(--grey-6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.pillar > div p {
+  font-family: var(--font-title);
+  font-size: var(--body);
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+}
+
 .quote {
   color: var(--quote);
 }
@@ -5,4 +99,26 @@
 .quote::before,
 .quote::after {
   content: '"';
+}
+
+@media screen and (max-width: 61.25em) {
+  .pillar,
+  .values .pillar:nth-child(odd) {
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .pillar header {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .container {
+    width: var(--width-full);
+  }
 }

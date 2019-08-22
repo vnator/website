@@ -25,7 +25,7 @@ const about_enUS = {
     quest: {
       title: 'Quest',
       paragraph:
-        'The Quest is the thing that inspires us, the emotion of the challenge, the excitement of discovery, and the will to create and transform stuff. We are ever Hungry for working with new technologies or applications, searching for new chellenges and new ways to overcome them, we travel the road because we like adventure.',
+        'This is the thing that inspires us, the emotion of the challenge, the excitement of discovery, and the will to create and transform stuff. We are ever Hungry for working with new technologies or applications, searching for new chellenges and new ways to overcome them, we travel the road because we like adventure.',
     },
     onus: {
       title: 'Onus',
@@ -35,12 +35,12 @@ const about_enUS = {
     experience: {
       title: 'Experience',
       paragraph:
-        'The Experience is the most value thing for us, whether obtained through work, study or observation. So we have an idea that accompanies us with each endeavor, <quote>maybe this journey will have a treasure chest at the end, maybe this final loot will not have such value. But surely this campaign will bring us much of our valuable experience.</quote>',
+        'Is something that always has value, whether obtained through work, study or observation. So we have an idea that accompanies us with each endeavor, <quote>maybe this journey will have a treasure chest at the end, maybe this final loot will not have such value. But surely this campaign will bring us much of our valuable experience.</quote>',
     },
     faith: {
       title: 'Faith',
       paragraph:
-        "Faith is what keeps us moving forward whichever of the difficulty, we believe that the important thing is honesty. Even if this is the hard way, let us follow if it is the right way, we may not understand God's plans, but we understand his love, so we remain faithful in Jesus Christ",
+        "Christ is what keeps us moving forward whichever of the difficulty, we believe that the important thing is honesty. Even if this is the hard way, let us follow if it is the right way, we may not understand God's plans, but we understand his love, so we remain faithful in Jesus Christ",
     },
   },
 };
