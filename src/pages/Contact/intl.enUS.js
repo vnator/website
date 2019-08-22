@@ -2,6 +2,7 @@ import { FORM, HINT } from '../../constants/form';
 
 const contact_enUS = {
   title: 'Contact',
+  submited: 'Email successfully sent. Thank you for your contact.',
   form: {
     legend: 'Leave us a message',
     input: {

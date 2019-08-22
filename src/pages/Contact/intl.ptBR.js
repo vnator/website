@@ -2,6 +2,8 @@ import { FORM, HINT } from '../../constants/form';
 
 const contact_ptBR = {
   title: 'Contato',
+  submited:
+    'Email enviado com sucesso. Obrigado pelo seu contato, logo entraremos em contato.',
   form: {
     legend: 'Gostaria de nos deixar uma mensagem?',
     input: {

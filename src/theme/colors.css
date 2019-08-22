@@ -26,18 +26,18 @@
 
   /* user colors */
   --info: #3a64f6;
-  --info-light: #c7d1f3;
+  --info-ligth: #c7d1f3;
   --info-dark: #072075;
 
   --ok: #60ec66;
-  --ok-light: #b7fbba;
+  --ok-ligth: #b7fbba;
   --ok-dark: #006c04;
 
   --error: #f3764f;
-  --error-light: #ffd9cd;
+  --error-ligth: #ffd9cd;
   --error-dark: #922a09;
 
   --warn: #e7eb2e;
-  --warn-light: #f9ffb6;
+  --warn-ligth: #f9ffb6;
   --warn-dark: #acaf09;
 }

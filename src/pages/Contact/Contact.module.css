@@ -107,6 +107,20 @@
   animation: spin 1.4s linear infinite;
 }
 
+.submited {
+  display: block;
+  padding: var(--space-large);
+  font-family: var(--font-title);
+  background: var(--white);
+  position: fixed;
+  color: var(--ok-dark);
+  border: 5px solid var(--ok-ligth);
+  max-width: 260px;
+  text-align: center;
+  top: 50%;
+  line-height: var(--line-height-base);
+}
+
 @keyframes spin {
   100% {
     transform: var(--rotate);
