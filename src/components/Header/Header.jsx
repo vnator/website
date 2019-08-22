@@ -10,7 +10,7 @@ const Header = ({ openSidebar, isOpen }) => {
   const [scroll, setScroll] = useState(false);
 
   const handleScroll = () => {
-    const width = window.screen.width <= 960 ? 600 : 860;
+    const width = window.screen.width <= 960 ? 600 : 850;
 
     if (document.documentElement.scrollTop > width && !scroll) {
       setScroll(true);

@@ -22,7 +22,7 @@ const tech_enUS = {
         python:
           'We have invested a lot of time and study in Python for its versatility as a language and application environment.',
         haskell:
-          'We are fascinated by functional languages (Haskell <3), even in imperative languages we seek to apply functional concepts when we find it appropriate.',
+          'We are fascinated by functional languages (Haskell s2), even in imperative languages we seek to apply functional concepts when we find it appropriate.',
         node:
           'If your demand requires Javascript NodeJS, we have a thorough knowledge of its features and limitations, we know how to get the best of this language that has a community that produces an extraordinary amount of frameworks, libraries and platforms.',
         tcl:

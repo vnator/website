@@ -22,7 +22,7 @@ const tech_ptBR = {
         python:
           'Houve muito tempo e estudo investidos por nossos colaboradores em Python pela sua versatilidade como linguagem e ambientes de aplicação.',
         haskell:
-          'Temos fascínio por linguagens funcionais(Haskell), mesmo em linguagens imperativas procuramos aplicar conceitos funcionais quando viável.',
+          'Temos fascínio por linguagens funcionais(Haskell s2), mesmo em linguagens imperativas procuramos aplicar conceitos funcionais quando viável.',
         node:
           'Caso sua demanda exija Javascript NodeJS, adquirimos um profundo conhecimento de seus recursos e limitações, sabemos como extrair o melhor dessa linguagem que possui uma comunidade que produz uma quantidade extraordinária de ferramentas, bibliotecas e plataformas.',
         tcl:

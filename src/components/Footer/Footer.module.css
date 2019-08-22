@@ -23,7 +23,7 @@
   width: var(--vnator-width);
   height: auto;
   display: block;
-  transform: translateY(calc(0px - (var(--space-large) + 2px)));
+  transform: translateY(calc(1px - (var(--space-large) + 3px)));
 }
 
 .copyRight {

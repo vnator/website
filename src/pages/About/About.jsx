@@ -65,7 +65,7 @@ let About = () => {
                   link: str => (
                     <Link
                       role={ROLE.MENU_ITEM}
-                      rel={formatMessage({ id: 'sidebar.tech' })}
+                      rel={formatMessage({ id: 'sidebar.tech.label' })}
                       to={routes.tech}>
                       {str}
                     </Link>
@@ -101,7 +101,7 @@ let About = () => {
 
           <article className={style.pillar}>
             <header>
-              <IconScroll className={style.icon} />
+              <IconTower className={style.icon} />
               <Title level={3}>
                 {formatMessage({ id: 'about.values.onus.title' })}
               </Title>
@@ -115,7 +115,7 @@ let About = () => {
 
           <article className={style.pillar}>
             <header>
-              <IconTower className={style.icon} />
+              <IconScroll className={style.icon} />
               <Title level={3}>
                 {formatMessage({ id: 'about.values.experience.title' })}
               </Title>
@@ -125,7 +125,7 @@ let About = () => {
                 {formatMessage(
                   { id: 'about.values.experience.paragraph' },
                   {
-                    quote: str => <quote className={style.quote}>{str}</quote>,
+                    quote: str => <span className={style.quote}>{str}</span>,
                   },
                 )}
               </Paragraph>
