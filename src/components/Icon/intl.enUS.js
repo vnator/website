@@ -1,5 +1,6 @@
 const icon_enUS = {
   vnator: 'VNATOR',
+  submiting: 'Submiting',
   chanel: {
     email: 'E-mail',
     linkedin: 'Linkedin',
@@ -9,7 +10,7 @@ const icon_enUS = {
   },
   dev: {
     git: 'git',
-    circleCI: 'CircliCi',
+    circleCi: 'CircliCi',
     jwt: 'JWT',
     vim: 'Vim',
     aws: 'AWS Amazon Web Service',
@@ -21,7 +22,7 @@ const icon_enUS = {
   },
   archtectural: {
     kafka: 'Kafka',
-    graphQL: 'GraphQL',
+    graphQl: 'GraphQL',
     awsLambda: 'AWS Lambda',
     awsEc2: 'AWS EC2',
     docker: 'Docker',
@@ -42,15 +43,15 @@ const icon_enUS = {
     python: 'Python',
     haskell: 'Haskell',
     tcl: 'TCL',
-    c: 'C/C++',
+    cpp: 'C/C++',
   },
   persistence: {
     postgres: 'PostgreSQL',
     mySql: 'MySQL',
-    sQLServer: 'SQLServer',
-    aurora: 'AuroraDB',
+    sqlServer: 'SQLServer',
+    awsAurora: 'AuroraDB',
     mongoDB: 'MongoDB',
-    dynamoDB: 'DynamoDB',
+    awsDynamoDB: 'DynamoDB',
     redis: 'Redis',
     django: 'Django',
     hibernate: 'Hibernate',
@@ -58,8 +59,8 @@ const icon_enUS = {
   },
   frontend: {
     es2015: 'ES2015++',
-    html5: 'html5',
-    css3: 'css3',
+    html: 'html5',
+    css: 'css3',
     postcss: 'postCSS',
     cssModules: 'CSS Modules',
     typescript: 'Typescript',
@@ -70,12 +71,13 @@ const icon_enUS = {
     webpack: 'Webpack',
     yarn: 'Yarn',
     apollo: 'Apollo Client',
+    eslint: 'ESLint',
     pwa: 'Progressive Web Application (PWA)',
   },
   mobile: {
     dart: 'Dart',
     flutter: 'Flutter',
-    androidSDK: 'Android SDK',
+    android: 'Android SDK',
     kotlin: 'Kotlin',
   },
 };

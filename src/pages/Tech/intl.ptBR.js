@@ -22,7 +22,7 @@ const tech_ptBR = {
         python:
           'Houve muito tempo e estudo investidos por nossos colaboradores em Python pela sua versatilidade como linguagem e ambientes de aplicação.',
         haskell:
-          'Temos fascínio por linguagens funcionais(Haskell <3), mesmo em linguagens imperativas procuramos aplicar conceitos funcionais quando viável.',
+          'Temos fascínio por linguagens funcionais(Haskell), mesmo em linguagens imperativas procuramos aplicar conceitos funcionais quando viável.',
         node:
           'Caso sua demanda exija Javascript NodeJS, adquirimos um profundo conhecimento de seus recursos e limitações, sabemos como extrair o melhor dessa linguagem que possui uma comunidade que produz uma quantidade extraordinária de ferramentas, bibliotecas e plataformas.',
         tcl:
@@ -40,7 +40,7 @@ const tech_ptBR = {
           'Persistência dos dados utilizando banco de dados relacional é uma alternativa comum e segura, fazendo uso da normalização e dos recursos que cada um dos SGBD (Sistema de Gerenciamento de Banco de Dados) disponibilizam, por mais que todos sigam as normas SQL, cada um deles possui suas particularidades.',
         noSql:
           'Também podemos fazer uso de noSQL ou banco de dados não relacional, que tem uma característica muito simples de <quote>chave:valor</quote> e uma eficiência para armazenamento de dados simples e menos complexos.',
-        reddis:
+        redis:
           'Seguindo essa mesma idéia podemos falar dos bancos de dados em memória como Redis, famosos por reduzirem o tempo de acesso aos dados, sendo uma forma interessante de compartilhar dados entre diferentes aplicações com baixo custo de acessso.',
         orm:
           'Aplicações que necessitem de um modelo relacional, podem utilizar ORM (Object-relational mapping), ferramentas que facilitam o desenvolvimento de aplicações e padronização do acesso aos dados. O framework Hibernate é sem dúvida uma referência para trabalhar o ORM utilizado na linguagem Java, fazendo uso de anotações ou arquivo XML. Em Python Django faz uso de Herança pra de uma forma muito eficiente trabalhar o ORM. E o sequelize é uma alternativa muito interessante para o NodeJs, sendo uma interface entre o banco de dados e o objeto mapeado como scheama.',

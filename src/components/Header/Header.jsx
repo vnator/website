@@ -10,15 +10,12 @@ const Header = ({ openSidebar, isOpen }) => {
   const [scroll, setScroll] = useState(false);
 
   const handleScroll = () => {
-    console.log('eu existo');
     const width = window.screen.width <= 960 ? 600 : 860;
 
     if (document.documentElement.scrollTop > width && !scroll) {
       setScroll(true);
-      console.log('ta iscroladu');
     } else if (document.documentElement.scrollTop <= width && scroll) {
       setScroll(false);
-      console.log('ta not iscroladu');
     }
   };
 

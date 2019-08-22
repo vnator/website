@@ -335,19 +335,19 @@ const Tech = () => {
             <Paragraph>
               {formatMessage({
                 id: 'tech.backend.languages.paragraph.intro',
-              })}
+              })}{' '}
               {formatMessage({
                 id: 'tech.backend.languages.paragraph.java',
-              })}
+              })}{' '}
               {formatMessage({
                 id: 'tech.backend.languages.paragraph.python',
-              })}
+              })}{' '}
               {formatMessage({
                 id: 'tech.backend.languages.paragraph.haskell',
-              })}
+              })}{' '}
               {formatMessage({
                 id: 'tech.backend.languages.paragraph.node',
-              })}
+              })}{' '}
               {formatMessage({
                 id: 'tech.backend.languages.paragraph.tcl',
               })}
@@ -447,14 +447,18 @@ const Tech = () => {
                   id: 'tech.backend.persistence.paragraph.noSql',
                 },
                 {
-                  quote: str => <quote className={style.quote}>{str}</quote>,
+                  quote: str => (
+                    <span key={1} className={style.quote}>
+                      {str}
+                    </span>
+                  ),
                 },
               )}
             </Paragraph>
 
             <Paragraph>
               {formatMessage({
-                id: 'tech.backend.persistence.paragraph.reddis',
+                id: 'tech.backend.persistence.paragraph.redis',
               })}
             </Paragraph>
 

@@ -4,6 +4,7 @@ export { IconMedium } from './IconMedium';
 export { IconLinkedin } from './IconLinkedin';
 export { IconGithub } from './IconGithub';
 export { IconEmail } from './IconEmail';
+export { IconRotate } from './IconRotate';
 
 // FIGURES
 export { IconSword } from './IconSword';

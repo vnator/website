@@ -42,7 +42,7 @@ let Footer = () => {
         <IconVnator className={style.vnator} />
         <ul className={style.list}>
           {Object.values(LINKS).map(link => (
-            <li>
+            <li key={link.rel}>
               <a
                 className={style.item}
                 {...link}

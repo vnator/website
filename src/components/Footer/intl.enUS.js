@@ -5,8 +5,9 @@ const footer_enUS = {
   externalLinks: {
     [CHANEL.LINKEDIN]: 'linkedin vnator company',
     [CHANEL.STACKSHARE]: 'vnator stack tecnology',
-    [CHANEL.MAIL]: 'vnator email contact',
+    [CHANEL.EMAIL]: 'vnator email contact',
     [CHANEL.GITHUB]: 'vnator github organization',
+    [CHANEL.MEDIUM]: 'vnator news',
   },
 };
 

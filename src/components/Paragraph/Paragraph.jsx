@@ -8,7 +8,11 @@ const Paragraph = ({ children }) => (
 );
 
 Paragraph.propTypes = {
-  children: Type.oneOfType([Type.string, Type.element]).isRequired,
+  children: Type.oneOfType([
+    Type.string,
+    Type.element,
+    Type.arrayOf(Type.string),
+  ]).isRequired,
 };
 
 export { Paragraph };

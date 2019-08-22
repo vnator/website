@@ -5,7 +5,7 @@ const footer_ptBR = {
   externalLinks: {
     [CHANEL.LINKEDIN]: 'Linkedin da empresa vnator',
     [CHANEL.STACKSHARE]: 'Stack de tecnologia vnator',
-    [CHANEL.MAIL]: 'Email de contato da vnator',
+    [CHANEL.EMAIL]: 'Email de contato da vnator',
     [CHANEL.MEDIUM]: 'Blog da vnator',
     [CHANEL.GITHUB]: 'Github da vnator',
   },

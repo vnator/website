@@ -1,5 +1,6 @@
 const icon_ptBR = {
   vnator: 'VNATOR',
+  submiting: 'Enviando',
   chanel: {
     email: 'E-mail',
     linkedin: 'Linkedin',
@@ -18,7 +19,7 @@ const icon_ptBR = {
   },
   dev: {
     git: 'git',
-    circleCI: 'CircliCi',
+    circleCi: 'CircliCi',
     jwt: 'JWT',
     vim: 'Vim',
     aws: 'AWS Amazon Web Service',
@@ -30,7 +31,7 @@ const icon_ptBR = {
   },
   archtectural: {
     kafka: 'Kafka',
-    graphQL: 'GraphQL',
+    graphQl: 'GraphQL',
     awsLambda: 'AWS Lambda',
     awsEc2: 'AWS EC2',
     docker: 'Docker',
@@ -46,20 +47,20 @@ const icon_ptBR = {
   },
   languages: {
     rust: 'Rust',
-    nodeJs: 'nodeJs',
+    nodeJs: 'nodeJS',
     java: 'Java',
     python: 'Python',
     haskell: 'Haskell',
     tcl: 'TCL',
-    c: 'C/C++',
+    cpp: 'C/C++',
   },
   persistence: {
     postgres: 'PostgreSQL',
     mySql: 'MySQL',
-    sQLServer: 'SQLServer',
-    aurora: 'AuroraDB',
+    sqlServer: 'SQLServer',
+    awsAurora: 'AuroraDB',
     mongoDB: 'MongoDB',
-    dynamoDB: 'DynamoDB',
+    awsDynamoDB: 'DynamoDB',
     redis: 'Redis',
     django: 'Django',
     hibernate: 'Hibernate',
@@ -67,13 +68,14 @@ const icon_ptBR = {
   },
   frontend: {
     es2015: 'ES2015++',
-    html5: 'html5',
-    css3: 'css3',
+    html: 'html5',
+    css: 'css3',
     postcss: 'postCSS',
     cssModules: 'CSS Modules',
     typescript: 'Typescript',
     elm: 'Elm',
     wasm: 'Web Assembly (WASM)',
+    eslint: 'ESLint',
     react: 'ReactJs',
     redux: 'Redux',
     webpack: 'Webpack',
@@ -86,7 +88,7 @@ const icon_ptBR = {
   mobile: {
     dart: 'Dart',
     flutter: 'Flutter',
-    androidSDK: 'Android SDK',
+    android: 'Android SDK',
     kotlin: 'Kotlin',
   },
 };

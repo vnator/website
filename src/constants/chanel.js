@@ -3,7 +3,7 @@ const CHANEL = Object.freeze({
   STACKSHARE: 'STACKSHARE',
   GITHUB: 'GITHUB',
   MEDIUM: 'MEDIUM',
-  MAIL: 'MAIL',
+  EMAIL: 'EMAIL',
 });
 
 export { CHANEL };

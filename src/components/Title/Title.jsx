@@ -36,8 +36,8 @@ Title.defaultProps = {
 };
 
 Title.propTypes = {
-  children: Type.string.isRequired,
-  level: Type.string,
+  children: Type.oneOfType([Type.string, Type.arrayOf(Type.string)]).isRequired,
+  level: Type.number,
 };
 
 export { Title };

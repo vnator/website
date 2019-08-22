@@ -40,7 +40,7 @@ const tech_enUS = {
           'Data persistence using relational database is a common and secure alternative, making use of the standardization and resources that each DBMS (Database Management System) provides, however much everyone follows SQL standards, everyone has their own peculiarities.',
         noSql:
           'We can use noSQL (non relational database), which has a very simple <quote>key: value</quote> feature and an efficiency for simple and less complex data storage.',
-        reddis:
+        redis:
           'Following the same pattern that NoSql, we can talk about in-memory databases like Redis, famous for reducing data access time, being an interesting way to share data between different applications with low access cost.',
         orm:
           'Applications that require a relational model can use ORM (Object-relational mapping), a tool that facilitates application development and standardization of data access. The Hibernate framework is a great example for working with ORM in Java, making use of annotations or XML files. In Python Django makes use of Inheritance to work ORM very efficiently. And sequelize is a very interesting alternative to NodeJs, being an interface between the database and the mapped object as scheama.',

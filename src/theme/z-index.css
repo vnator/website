@@ -4,8 +4,8 @@
   --z-banner: 2;
   --z-gradient: 4;
   --z-content: 5;
-  --z-header: 6;
-  --z-sidebar: 7;
-  --z-dialog: 8;
+  --z-dialog: 6;
+  --z-header: 7;
+  --z-sidebar: 8;
   --z-snackbar: 9;
 }
