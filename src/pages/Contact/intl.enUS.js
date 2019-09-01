@@ -1,34 +1,30 @@
-import { FORM, HINT } from '../../constants/form';
+import { CHANEL } from '../../constants/chanel';
 
 const contact_enUS = {
   title: 'Contact',
-  submited: 'Email successfully sent. Thank you for your contact.',
-  form: {
-    legend: 'Leave us a message',
-    input: {
-      [FORM.EMAIL]: {
-        label: 'E-mail',
-        placeholder: 'Type your e-mail',
-      },
-      [FORM.NAME]: {
-        label: 'Name',
-        placeholder: 'Type your full name',
-      },
-      [FORM.SUBJECT]: {
-        label: 'Subject',
-        placeholder: 'what is the reason for your contact?',
-      },
-      [FORM.MESSAGE]: {
-        label: 'Message',
-        placeholder: 'Type your message',
-      },
+  paragraph:
+    'To chat with us directly you can use RocketChat or from our email.',
+  subtitle: 'Our pages.',
+  chanels: {
+    [CHANEL.EMAIL]: {
+      label: 'E-mail',
+      link: 'contato@vnator.com',
     },
-    submit: 'submit',
-    hint: {
-      [HINT.EMAIL]: 'type a valid e-mail',
-      [HINT.MIN]: 'min {number} chars',
-      [HINT.MAX]: '{current}/{max}',
-      [HINT.REQUIRED]: 'required',
+    [CHANEL.GITHUB]: {
+      label: 'Github',
+      link: 'github.com/vnator',
+    },
+    [CHANEL.LINKEDIN]: {
+      label: 'Linkedin',
+      link: 'linkedin.com/company/vnator',
+    },
+    [CHANEL.MEDIUM]: {
+      label: 'Medium',
+      link: 'medium.com/vnator',
+    },
+    [CHANEL.STACKSHARE]: {
+      label: 'StackShare',
+      link: 'stackshare.io/vnator',
     },
   },
 };

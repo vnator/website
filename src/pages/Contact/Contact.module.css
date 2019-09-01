@@ -4,159 +4,118 @@
   width: 100%;
   height: 100%;
   position: relative;
-  padding-bottom: 6px;
-}
-
-.super {
-  top: calc(var(--header-height) + var(--space-large));
-  left: 0;
-  position: absolute;
-  z-index: var(--z-dialog);
+  padding-bottom: calc(var(--space-extra) * 2);
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .container {
-  position: relative;
   margin: var(--space-extra) 0;
   width: var(--width);
+}
+
+.header > * {
+  color: var(--even-dark);
+  margin: 0;
+}
+
+.paragraph {
+  color: var(--grey-4);
+  margin: 0;
+  max-width: 500px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.form {
+.icon {
+  width: 74px;
+  height: 64px;
+  box-sizing: border-box;
+  margin: 0 var(--space-large);
+}
+
+.grid {
   display: flex;
-  flex-direction: column;
-  width: 600px;
-}
-
-.legend {
-  color: var(--white);
-  font-size: var(--h4);
-  text-align: center;
-  width: 100%;
-  margin: var(--space-base) 0;
-  font-family: var(--font-title);
-}
-
-.line {
-  display: flex;
+  width: 720px;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.line > * {
-  max-width: calc(50% - var(--space-base));
+.item {
+  display: flex;
+  width: 340px;
+  margin: var(--space-base) 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  border-radius: 3px;
+  border-left: 0;
+  border-left: 5px solid;
+  transition: var(--transition-over-box);
 }
 
-.label {
-  color: var(--white);
-  font-family: var(--font-title);
-  margin-bottom: var(--space-base);
+.item:hover {
+  box-shadow: var(--shadow-card-far);
+  transform: var(--scale-to-left);
 }
 
-.inputBox {
-  width: 100%;
+.item:nth-child(1) {
+  border-color: var(--main);
+}
+
+.item:nth-child(2) {
+  border-color: var(--even);
+}
+
+.item:nth-child(3) {
+  border-color: var(--odd);
+}
+
+.item:nth-child(4) {
+  border-color: var(--main-dark);
+}
+
+.item:nth-child(5) {
+  border-color: var(--main-ligth);
+}
+
+.item header {
+  padding: var(--space-large);
+  background: var(--grey-7);
+}
+
+.itemIcon {
+  width: 32px;
+  height: 32px;
+  fill: var(--grey-4);
+  box-shadow: var(--text-shadow-inner);
+}
+
+.content {
+  padding: var(--space-large);
+  padding-left: var(--space-base);
   display: flex;
   flex-direction: column;
-  margin: var(--space-large) 0;
-}
-
-.inputBox input,
-.inputBox textarea {
-  width: 100%;
-  border-radius: 0;
-  border: 0;
-  height: 32px;
-  padding: var(--space-base);
-  box-sizing: border-box;
-  font-size: var(--quote);
-  font-family: var(--font-text);
-  color: var(--grey-4);
-}
-
-.inputBox textarea {
-  height: 80px;
-}
-
-.submit {
-  background: var(--main);
-  border: 0;
-  height: 40px;
+  font-size: var(--body);
   font-family: var(--font-title);
-  color: var(--main-dark);
-  box-shadow: var(--shadow-card);
-  cursor: pointer;
-  transition: var(--transition);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.submit:hover {
-  background: var(--main-dark);
-  color: var(--main-ligth);
-}
-
-.rotate {
-  width: 20px;
-  fill: white;
-  animation: spin 1.4s linear infinite;
-}
-
-.submited {
-  display: block;
-  padding: var(--space-large);
-  font-family: var(--font-title);
-  background: var(--white);
-  position: fixed;
-  color: var(--ok-dark);
-  border: 5px solid var(--ok-ligth);
-  max-width: 260px;
-  text-align: center;
-  top: 50%;
-  line-height: var(--line-height-base);
-}
-
-@keyframes spin {
-  100% {
-    transform: var(--rotate);
-  }
 }
 
 @media screen and (max-width: 61.25em) {
-  .super {
-    top: var(--header-height-small);
+  .grid {
+    display: flex;
+    width: 100%;
   }
 
+  .item {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 100em) {
   .container {
-    margin-top: var(--space-large);
-  }
-
-  .form {
-    width: 92vw;
-  }
-
-  .legend {
-    margin-top: 0;
-    margin-bottom: var(--space-large);
-  }
-
-  .line {
-    flex-direction: column;
-  }
-  .line > * {
-    max-width: none;
-  }
-
-  .inputBox {
-    margin: var(--space-base) 0;
-  }
-
-  .submit {
-    margin-top: var(--space-base);
+    width: var(--width-full);
   }
 }

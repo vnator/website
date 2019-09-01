@@ -7,6 +7,7 @@ const icon_enUS = {
     github: 'Github',
     medium: 'Medium',
     stackshare: 'Stackshare',
+    rocketChat: 'Rocket Chat',
   },
   figure: {
     sword: 'Sword',

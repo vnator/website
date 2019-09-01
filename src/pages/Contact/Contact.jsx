@@ -1,40 +1,39 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useIntl } from 'react-intl';
 
-import style from './Contact.module.css';
-import { FORM, TYPE } from '../../constants/form';
-import { Banner } from '../../components/Banner/Banner';
 import imgDesktop from '../../img/banner-contact-desktop.jpeg';
 import imgMobile from '../../img/banner-contact-mobile.jpeg';
-import { IconRotate } from '../../components/Icon';
+import { Banner } from '../../components/Banner/Banner';
+import { CHANEL } from '../../constants/chanel';
+import { LINKS } from '../../constants/links';
+import { Paragraph } from '../../components/Paragraph/Paragraph';
+import { Title } from '../../components/Title/Title';
+import {
+  IconEmail,
+  IconMedium,
+  IconStackshare,
+  IconGithub,
+  IconLinkedin,
+} from '../../components/Icon';
+
+import style from './Contact.module.css';
 
 const Contact = () => {
   const { formatMessage } = useIntl();
-  const [submiting, setSubmiting] = useState(false);
-  const [submited, setSubmited] = useState(false);
-  const [input, setInput] = useState({
-    [FORM.NAME]: '',
-    [FORM.EMAIL]: '',
-    [FORM.SUBJECT]: '',
-    [FORM.MESSAGE]: '',
-  });
 
-  const submit = e => {
-    e.preventDefault();
-    console.log('enviando');
-    setSubmiting(true);
-
-    // USE Submit function
-    setTimeout(() => {
-      console.log(input);
-    }, 2000);
-    setSubmiting(false);
-
-    // SUBMITED FEEDBACK
-    setSubmited(true);
-    setTimeout(() => {
-      setSubmited(false);
-    }, 3000);
+  const switchIcon = NAME => {
+    switch (NAME) {
+      case CHANEL.EMAIL:
+        return <IconEmail className={style.itemIcon} />;
+      case CHANEL.MEDIUM:
+        return <IconMedium className={style.itemIcon} />;
+      case CHANEL.GITHUB:
+        return <IconGithub className={style.itemIcon} />;
+      case CHANEL.STACKSHARE:
+        return <IconStackshare className={style.itemIcon} />;
+      default:
+        return <IconLinkedin className={style.itemIcon} />;
+    }
   };
 
   return (
@@ -44,138 +43,31 @@ const Contact = () => {
         title={formatMessage({ id: 'contact.title' })}
         white
       />
-      <div className={style.super}>
-        <div className={style.container}>
-          {!submited ? (
-            <form className={style.form} onSubmit={submit}>
-              <legend className={style.legend}>
-                {formatMessage({ id: 'contact.form.legend' })}
-              </legend>
-              <div className={style.inputBox}>
-                <label className={style.label}>
+      <div className={style.container}>
+        <header className={style.header}>
+          <Title>{formatMessage({ id: 'contact.subtitle' })}</Title>
+          <div className={style.paragraph}>
+            <Paragraph>{formatMessage({ id: 'contact.paragraph' })}</Paragraph>
+          </div>
+        </header>
+        <div className={style.grid}>
+          {Object.values(CHANEL).map(item => (
+            <div className={style.item}>
+              <header>{switchIcon(item)}</header>
+              <div className={style.content}>
+                <span>
                   {formatMessage({
-                    id: `contact.form.input.${FORM.NAME}.label`,
+                    id: `contact.chanels.${item}.label`,
                   })}
-                </label>
-                <input
-                  required
-                  type={TYPE.TEXT}
-                  name={FORM.NAME}
-                  value={input[FORM.NAME]}
-                  onChange={e => {
-                    e.preventDefault();
-                    console.log('caraio');
-                    setInput({
-                      ...input,
-                      [FORM.NAME]: e.target.value,
-                    });
-                  }}
-                  placeholder={formatMessage({
-                    id: `contact.form.input.${FORM.NAME}.placeholder`,
-                  })}
-                />
-              </div>
-              <div className={style.line}>
-                <div className={style.inputBox}>
-                  <label className={style.label}>
-                    {formatMessage({
-                      id: `contact.form.input.${FORM.EMAIL}.label`,
-                    })}
-                  </label>
-                  <input
-                    required
-                    type={TYPE.EMAIL}
-                    name={FORM.EMAIL}
-                    value={input[FORM.EMAIL]}
-                    onChange={e => {
-                      e.preventDefault();
-                      console.log('caraio');
-                      setInput({
-                        ...input,
-                        [FORM.EMAIL]: e.target.value,
-                      });
-                    }}
-                    placeholder={formatMessage({
-                      id: `contact.form.input.${FORM.EMAIL}.placeholder`,
-                    })}
-                  />
-                </div>
-                <div className={style.inputBox}>
-                  <label className={style.label}>
-                    {formatMessage({
-                      id: `contact.form.input.${FORM.SUBJECT}.label`,
-                    })}
-                  </label>
-                  <input
-                    required
-                    type={TYPE.TEXT}
-                    name={FORM.SUBJECT}
-                    value={input[FORM.SUBJECT]}
-                    onChange={e => {
-                      e.preventDefault();
-                      console.log('caraio');
-                      setInput({
-                        ...input,
-                        [FORM.SUBJECT]: e.target.value,
-                      });
-                    }}
-                    placeholder={formatMessage({
-                      id: `contact.form.input.${FORM.SUBJECT}.placeholder`,
-                    })}
-                  />
-                </div>
-              </div>
-              <div className={style.inputBox}>
-                <label className={style.label}>
+                </span>
+                <a {...LINKS[item]}>
                   {formatMessage({
-                    id: `contact.form.input.${FORM.MESSAGE}.label`,
+                    id: `contact.chanels.${item}.link`,
                   })}
-                </label>
-                <textarea
-                  required
-                  name={FORM.MESSAGE}
-                  value={input[FORM.MESSAGE]}
-                  onChange={e => {
-                    e.preventDefault();
-                    console.log('caraio');
-                    setInput({
-                      ...input,
-                      [FORM.MESSAGE]: e.target.value,
-                    });
-                  }}
-                  placeholder={formatMessage({
-                    id: `contact.form.input.${FORM.MESSAGE}.placeholder`,
-                  })}
-                />
+                </a>
               </div>
-
-              <div className={style.inputBox}>
-                <button
-                  type="submit"
-                  className={style.submit}
-                  disabled={
-                    submiting ||
-                    !Object.values(input).every(
-                      value => value !== '' || value !== undefined,
-                    )
-                  }>
-                  {submiting ? (
-                    <IconRotate className={style.rotate} />
-                  ) : (
-                    formatMessage({
-                      id: `contact.form.submit`,
-                    })
-                  )}
-                </button>
-              </div>
-            </form>
-          ) : (
-            <span className={style.submited}>
-              {formatMessage({
-                id: 'contact.submited',
-              })}
-            </span>
-          )}
+            </div>
+          ))}
         </div>
       </div>
     </div>
