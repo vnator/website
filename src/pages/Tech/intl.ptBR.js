@@ -16,7 +16,7 @@ const tech_ptBR = {
       title: 'Linguagens de Programação',
       paragraph: {
         intro:
-          'A adaptabilidade da VNATOR se estende por diversos padrões e linguagens, possuimos imensa facilidade em adaptar nos a novas tecnologias ou paradigmas.',
+          'A adaptabilidade da VNATOR se estende por diversos padrões e linguagens, possuímos imensa facilidade em adaptar nos a novas tecnologias ou paradigmas.',
         java:
           'Estruturas declarativas e patterns resilientes como na linguagem de programação Orientada a Objeto Java, são uma rotina em nossas aplicações.',
         python:
