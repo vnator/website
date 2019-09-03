@@ -26,17 +26,6 @@
   position: relative;
 }
 
-.version {
-  position: fixed;
-  bottom: 20px;
-  left: 0;
-  background: var(--main-dark);
-  color: white;
-  padding: 12px;
-  border-radius: 0 8px 8px 0;
-  font-family: var(--font-gothic);
-}
-
 .pageTitle {
   margin: var(--zero);
   line-height: var(--line-height-small);

@@ -21,7 +21,6 @@ const Header = ({ openSidebar, isOpen }) => {
         scroll >= headerHeight ? style._scrolled : ''
       }`}>
       <div className={style.container}>
-        <div className={style.version}>1.1</div>
         <Link role={ROLE.MENU_ITEM} to={routes.home}>
           <h1 className={style.pageTitle} role={ROLE.HEADING} aria-level={1}>
             <Logo className={style.logo} />
