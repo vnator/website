@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useScroll from 'react-use-scroll';
+
 import Type from 'prop-types';
 import { useIntl } from 'react-intl';
 import { Link } from 'react-router-dom';
@@ -9,28 +11,17 @@ import { ID, ROLE } from '../../constants/elementAttr';
 import { routes } from '../../config/routes';
 
 const Header = ({ openSidebar, isOpen }) => {
-  const [scroll, setScroll] = useState(false);
-
-  const handleScroll = () => {
-    const height = window.screen.height <= 960 ? 520 : 850;
-
-    if (window.pageYOffset > height && !scroll) {
-      setScroll(true);
-    } else if (window.pageYOffset <= height && scroll) {
-      setScroll(false);
-    }
-  };
-
-  useEffect(() => {
-    window.onscroll = () => handleScroll();
-
-    return () => (window.onscroll = undefined);
-  });
+  const headerHeight = window.screen.width <= 960 ? 520 : 850;
+  const scroll = useScroll();
 
   const { formatMessage } = useIntl();
   return (
-    <header className={`${style.Header} ${scroll ? style._scrolled : ''}`}>
+    <header
+      className={`${style.Header} ${
+        scroll >= headerHeight ? style._scrolled : ''
+      }`}>
       <div className={style.container}>
+        <div className={style.version}>1.1</div>
         <Link role={ROLE.MENU_ITEM} to={routes.home}>
           <h1 className={style.pageTitle} role={ROLE.HEADING} aria-level={1}>
             <Logo className={style.logo} />
