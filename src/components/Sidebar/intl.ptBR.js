@@ -1,6 +1,6 @@
 const sidebar_ptBR = {
   home: {
-    label: 'início',
+    label: 'Início',
     description: 'primeiras impressoes',
   },
   about: {

@@ -1,6 +1,7 @@
 .Banner {
   --height: 960px;
 
+  max-height: var(--height);
   height: var(--height);
   width: 100%;
   position: relative;
@@ -79,6 +80,9 @@
 @media screen and (max-width: 61.25em) {
   .Banner {
     --height: 680px;
+    height: 100vh;
+    max-width: var(--height);
+    overflow: hidden;
   }
 
   .content {
@@ -90,8 +94,10 @@
   /* POSITIONS */
   .text {
     text-align: right;
-    align-items: flex-end;
-    padding: 0 var(--container-margin) var(--container-margin);
+    position: absolute;
+    left: var(--container-margin);
+    bottom: 16vh;
+    padding: 0;
   }
 
   .title {
