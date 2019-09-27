@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@formatjs/intl-relativetimeformat": "^2.6.3",
+    "@formatjs/intl-relativetimeformat": "^4.1.1",
     "intl-pluralrules": "^1.0.3",
     "ramda": "^0.26.1",
     "react": "^16.8.6",
