@@ -28,9 +28,11 @@ let Logo = ({ className }) => {
 Logo.defaultProps = {
   width: '1em',
   height: '1em',
+  className: '',
 };
 
 Logo.propTypes = {
+  className: Type.string,
   width: Type.string,
   height: Type.string,
 };
