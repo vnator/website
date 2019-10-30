@@ -3,11 +3,13 @@ jobs:
   build:
     working_directory: ~/website
     docker:
-      - image: circleci/node:10.0-browsers
+      - image: circleci/node
     steps:
       - checkout
       - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
+          key: 
+            - dependency-cache-{{ checksum "package.json" }}
+            - yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: install
           command: yarn
@@ -26,7 +28,7 @@ jobs:
           command: yarn build
   deploy:
     docker:
-      - image: circleci/python:3.7-stretch
+      - image: circleci/python:3-node
     working_directory: ~/website
     steps:
       - run:
