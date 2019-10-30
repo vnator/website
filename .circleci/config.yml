@@ -10,20 +10,20 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: install
-          command: npm install
+          command: yarn
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
       - run:
           name: eslint
-          command: npm run eslint
+          command: yarn run eslint
       - run:
           name: stylelint
-          command: npm run stylelint
+          command: yarn run stylelint
       - run:
           name: build
-          command: npm build
+          command: yarn build
   deploy:
     docker:
       - image: circleci/python:3.7-stretch
@@ -34,7 +34,7 @@ jobs:
           command: sudo pip install awscli
       - run:
           name: Deploy to S3
-          command: aws s3 sync build s3://www.vnator.com --delete
+          command: yarn run deploy
 
 workflows:
   version: 2
