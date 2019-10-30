@@ -33,3 +33,11 @@ jobs:
           name: Deploy to S3
           command: aws s3 sync build/ s3://www.vnator.com --delete
 
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
