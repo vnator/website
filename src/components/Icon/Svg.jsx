@@ -28,8 +28,7 @@ const viewBoxType = Types.shape({
 });
 
 Svg.propTypes = {
-  children: Types.oneOfType([Types.element, Types.array])
-    .isRequired,
+  children: Types.oneOfType([Types.element, Types.array]).isRequired,
   className: Types.string,
   viewBox: viewBoxType,
   size: sizeType,
