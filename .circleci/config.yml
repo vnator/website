@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/website
+    docker:
+      - image: circleci/node:10.0-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: install
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: eslint
+          command: npm run eslint
+      - run:
+          name: stylelint
+          command: npm run stylelint
+      - run:
+          name: build
+          command: npm build
