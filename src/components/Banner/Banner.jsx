@@ -1,4 +1,5 @@
 import React from 'react';
+import Type from 'prop-types';
 
 import style from './Banner.module.css';
 import { BANNER_STATUS } from '../../constants/banner';
@@ -34,6 +35,22 @@ let Banner = ({ title, content, status, img, white }) => {
       </div>
     </div>
   );
+};
+
+Banner.defaultProps = {
+  content: undefined,
+  white: false,
+};
+
+Banner.propTypes = {
+  title: Type.string.isRequired,
+  content: Type.string,
+  status: Type.string.isRequired,
+  img: Type.shape({
+    desktop: Type.string,
+    mobile: Type.string,
+  }).isRequired,
+  white: Type.bool,
 };
 
 export { Banner };
