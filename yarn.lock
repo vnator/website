@@ -1051,12 +1051,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
-"@formatjs/intl-relativetimeformat@^4.2.1", "@formatjs/intl-relativetimeformat@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-4.4.0.tgz#8de1d25457cd34531c87f3fa4c7d381606f010ed"
-  integrity sha512-8lXOWWvoIPJR8Ak1uywE/gajBmHppfIg6a1o/fyd3t6NV7Qe+PVj7SJ5SgyRUcK3xQVA6AXpDJ7LCyjo5iOD8g==
+"@formatjs/intl-relativetimeformat@^4.2.1", "@formatjs/intl-relativetimeformat@^4.5.3":
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-relativetimeformat/-/intl-relativetimeformat-4.5.3.tgz#f738dad1ac874ec5790ecced9d58388747d80d26"
+  integrity sha512-j8ZGaS0Rcx0nDG+rnsDUnw7p0DH1pBV+pz3LIm4eZRl1f93IBC/RbR8E1mAvT28kAyq4vVg5YNDGI3oUlpbR9g==
   dependencies:
-    "@formatjs/intl-utils" "^1.4.0"
+    "@formatjs/intl-utils" "^2.0.0"
 
 "@formatjs/intl-unified-numberformat@^2.1.0":
   version "2.1.0"
@@ -1069,6 +1069,11 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-1.4.0.tgz#b59fdf78bbae9f99c500a298bf73b1945f5991f1"
   integrity sha512-z5HyJumGzORM+5SpvkAlp/hu0AHDeZcUNKSmj9NjS7kWxOGZMuAdS3X1K5XiE0j5I8r8s8SIaz0IQOdMA1WFeA==
+
+"@formatjs/intl-utils@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.0.0.tgz#b39ea374c793761a22d0d11cf63fdd8ac3a64a8c"
+  integrity sha512-+IRnZmkji94Pw6P6k/FvQJ4l4WNCHseZrKFZMsGN/CPm2aOfTtUVBLL4lPofIsbkiHBASU02HtyvPvf9C5ELAg==
 
 "@hapi/address@2.x.x":
   version "2.0.0"
