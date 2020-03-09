@@ -5495,12 +5495,12 @@ intl-messageformat@^7.3.3:
     intl-format-cache "^4.2.5"
     intl-messageformat-parser "^3.2.2"
 
-intl-pluralrules@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/intl-pluralrules/-/intl-pluralrules-1.0.3.tgz#25438469f76fd13a4ac54a68a0ae4c0d30248a47"
-  integrity sha512-N+q+NmxJD5Pi+h7DoemDcNZN86e1dPSFUsWUtYtnSc/fKRen4vxCTcsmGveWOUgI9O9uSLTaiwJpC9f5xa2X4w==
+intl-pluralrules@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/intl-pluralrules/-/intl-pluralrules-1.1.2.tgz#0b5cd83001792b5088140f8bb5505c9f2d580277"
+  integrity sha512-awT+Y/f7ftsg8IUfxRotCYFnDdmpFJQqud1jkOw8RAOUjslbhSC+xJoG4pqj/X8casKgAlQttnsbQP3R0BICyQ==
   dependencies:
-    make-plural "^4.3.0"
+    make-plural "^6.1.0"
 
 invariant@^2.1.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
@@ -6822,12 +6822,10 @@ make-dir@^2.0.0, make-dir@^2.1.0:
     pify "^4.0.1"
     semver "^5.6.0"
 
-make-plural@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/make-plural/-/make-plural-4.3.0.tgz#f23de08efdb0cac2e0c9ba9f315b0dff6b4c2735"
-  integrity sha512-xTYd4JVHpSCW+aqDof6w/MebaMVNTVYBZhbB/vi513xXdiPT92JMVCo0Jq8W2UZnzYRFeVbQiQ+I25l13JuKvA==
-  optionalDependencies:
-    minimist "^1.2.0"
+make-plural@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/make-plural/-/make-plural-6.1.0.tgz#490b381874b7c454bace11b23b899809b95b9e8b"
+  integrity sha512-0ekbPHqxcdRcmjZ43TkRuejK5rXgMF1OjG4FVnVHgCvOcjrexaSX7a0dfAvqhOm1qWPgjYnXtmz3cHpHW5ZewA==
 
 makeerror@1.0.x:
   version "1.0.11"

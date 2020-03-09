@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@formatjs/intl-relativetimeformat": "^4.4.0",
-    "intl-pluralrules": "^1.0.3",
+    "intl-pluralrules": "^1.1.2",
     "ramda": "^0.26.1",
     "react": "^16.8.6",
     "react-dom": "^16.9.0",
