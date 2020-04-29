@@ -2,20 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ScrollToTop from 'react-router-scroll-top';
-
-import { IntlProvider } from 'react-intl';
-import '@formatjs/intl-relativetimeformat/polyfill';
-import '@formatjs/intl-relativetimeformat/dist/include-aliases'; // Optional, if you care about edge cases in locale resolution, e.g zh-CN -> zh-Hans-CN
-import '@formatjs/intl-relativetimeformat/dist/locale-data/pt';
-import '@formatjs/intl-relativetimeformat/dist/locale-data/en';
+import { RawIntlProvider, createIntl } from 'react-intl';
 
 import { messages } from './messages';
-import { flattenMessages } from './config/flattenMessages';
-
-import * as serviceWorker from './config/serviceWorker';
 import { Main } from './components/Main/Main';
-
+import * as serviceWorker from './config/serviceWorker';
 import './theme/index.css';
+import { parseMessages } from './config/parseMessages';
+
+if (!Intl.PluralRules) {
+  require('@formatjs/intl-pluralrules/polyfill');
+  require('@formatjs/intl-pluralrules/dist/locale-data/pt');
+  require('@formatjs/intl-pluralrules/dist/locale-data/en');
+}
+
+if (!Intl.RelativeTimeFormat) {
+  require('@formatjs/intl-relativetimeformat/polyfill');
+  require('@formatjs/intl-relativetimeformat/dist/locale-data/pt');
+  require('@formatjs/intl-relativetimeformat/dist/locale-data/en');
+}
+
+if (!Intl.DisplayNames) {
+  require('@formatjs/intl-displaynames/polyfill');
+  require('@formatjs/intl-displaynames/dist/locale-data/pt'); // Add locale data for de
+  require('@formatjs/intl-displaynames/dist/locale-data/en'); // Add locale data for de
+}
 
 const locale =
   navigator.language ||
@@ -23,14 +34,19 @@ const locale =
   (navigator.languages && navigator.languages[0]) ||
   'pt-BR';
 
+const intl = createIntl({
+  locale,
+  messages: parseMessages(messages[locale]),
+});
+
 ReactDOM.render(
-  <IntlProvider locale={locale} messages={flattenMessages(messages[locale])}>
+  <RawIntlProvider value={intl}>
     <Router>
       <ScrollToTop>
         <Main />
       </ScrollToTop>
     </Router>
-  </IntlProvider>,
+  </RawIntlProvider>,
   document.getElementById('root'),
 );
 
