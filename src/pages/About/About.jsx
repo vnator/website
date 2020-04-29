@@ -62,7 +62,7 @@ let About = () => {
                   id: 'about.focus.paragraph.main',
                 },
                 {
-                  link: str => (
+                  link: (str) => (
                     <Link
                       role={ROLE.MENU_ITEM}
                       rel={formatMessage({ id: 'sidebar.tech.label' })}
@@ -125,7 +125,7 @@ let About = () => {
                 {formatMessage(
                   { id: 'about.values.experience.paragraph' },
                   {
-                    quote: str => <span className={style.quote}>{str}</span>,
+                    quote: (str) => <span className={style.quote}>{str}</span>,
                   },
                 )}
               </Paragraph>

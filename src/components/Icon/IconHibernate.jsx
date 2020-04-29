@@ -4,7 +4,7 @@ import { useIntl } from 'react-intl';
 
 import { Svg, viewBoxType } from './Svg';
 
-const IconHibernate = props => {
+const IconHibernate = (props) => {
   const { formatMessage } = useIntl();
 
   return (

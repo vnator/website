@@ -21,7 +21,7 @@ import style from './Contact.module.css';
 const Contact = () => {
   const { formatMessage } = useIntl();
 
-  const switchIcon = NAME => {
+  const switchIcon = (NAME) => {
     switch (NAME) {
       case CHANEL.EMAIL:
         return <IconEmail className={style.itemIcon} />;
@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
         </header>
         <div className={style.grid}>
-          {Object.values(CHANEL).map(item => (
+          {Object.values(CHANEL).map((item) => (
             <div className={style.item}>
               <header>{switchIcon(item)}</header>
               <div className={style.content}>

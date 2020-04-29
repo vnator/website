@@ -4,7 +4,7 @@ import { useIntl } from 'react-intl';
 
 import { Svg, viewBoxType } from './Svg';
 
-const IconKafka = props => {
+const IconKafka = (props) => {
   const { formatMessage } = useIntl();
 
   return (

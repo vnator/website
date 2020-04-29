@@ -4,7 +4,7 @@ import { useIntl } from 'react-intl';
 
 import { Svg, viewBoxType } from './Svg';
 
-const IconCpp = props => {
+const IconCpp = (props) => {
   const { formatMessage } = useIntl();
 
   return (

@@ -17,7 +17,7 @@ import {
 
 let Footer = () => {
   const { formatMessage } = useIntl();
-  let switchIcon = social => {
+  let switchIcon = (social) => {
     switch (social) {
       case CHANEL.GITHUB:
         return <IconGithub className={style.icon} />;
@@ -41,7 +41,7 @@ let Footer = () => {
         </small>
         <IconVnator className={style.vnator} />
         <ul className={style.list}>
-          {Object.values(LINKS).map(link => (
+          {Object.values(LINKS).map((link) => (
             <li key={link.rel}>
               <a
                 className={style.item}

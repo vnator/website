@@ -447,7 +447,7 @@ const Tech = () => {
                   id: 'tech.backend.persistence.paragraph.noSql',
                 },
                 {
-                  quote: str => (
+                  quote: (str) => (
                     <span key={1} className={style.quote}>
                       {str}
                     </span>
