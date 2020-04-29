@@ -32,6 +32,11 @@ jobs:
       - run:
           name: Deploy to S3
           command: aws s3 sync build/ s3://www.vnator.com --delete
+      - run:
+          name: Create cloudfront invalidation
+          command: |
+            aws cloudfront create-invalidation --distribution-id E27PKO3MACK3V1 --paths *
+            aws cloudfront create-invalidation --distribution-id E1GXNDPO3C88D7 --paths *
 
 workflows:
   version: 2
