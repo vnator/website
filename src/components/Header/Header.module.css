@@ -4,8 +4,6 @@
   --translate-to-left: translateX(-5px);
   --translate-to-right: translateX(5px);
 
-  --alternate: var(--main-dark);
-
   position: fixed;
   left: 0;
   top: 0;
@@ -80,7 +78,7 @@
   --btn-width: 32px;
   --btn-height: 38.5px;
 
-  background: var(--main);
+  background: var(--primary);
   height: var(--header-height-small);
 }
 

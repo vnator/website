@@ -87,7 +87,7 @@
 }
 
 .menuItem a:hover {
-  /* color: var(--main); */
+  /* color: var(--primary); */
   margin-bottom: 0;
   transform: var(--item-transform);
 }

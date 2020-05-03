@@ -22,7 +22,7 @@
 }
 
 .main h2 {
-  color: var(--even-dark);
+  color: var(--primary-dark-3);
   text-shadow: var(--text-shadow-double);
 }
 .main p {
@@ -31,24 +31,24 @@
 
 /* BACKEND */
 .backend > header h3 {
-  color: var(--main);
+  color: var(--primary);
 }
 
 .backend .article h4,
 .backend > header p {
-  color: var(--main-dark);
+  color: var(--primary-dark-2);
 }
 
 /* FRONTEND */
 
 .frontend > header h3 {
-  color: var(--even);
+  color: var(--primary-ligth-1);
 }
 
 .frontend .article h4,
 .frontend .article h5,
 .frontend > header p {
-  color: var(--even-dark);
+  color: var(--primary-dark-3);
 }
 
 /* GENERAL */

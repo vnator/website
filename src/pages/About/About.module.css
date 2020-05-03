@@ -16,7 +16,7 @@
 }
 
 .main header {
-  color: var(--even);
+  color: var(--primary-ligth-1);
 }
 
 .values {
@@ -30,7 +30,7 @@
 .values > header {
   text-align: center;
   max-width: 740px;
-  color: var(--even-dark);
+  color: var(--primary-dark-3);
   text-shadow: var(--text-shadow-double);
 }
 

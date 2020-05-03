@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  background: var(--even-dark);
+  background: var(--primary);
   box-sizing: border-box;
   padding: var(--space-large) 0;
 }
@@ -74,7 +74,7 @@
 }
 
 .icon:hover {
-  fill: var(--odd);
+  fill: var(--secondary);
 }
 
 @media screen and (max-width: 61.25em) {

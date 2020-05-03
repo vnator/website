@@ -1,27 +1,33 @@
 :root {
   /* Brand Colors */
-  --main: #3385d0;
-  --main-ligth: #afd7ee;
-  --main-dark: #1a4286;
+  --primary-ligth-3: #d0fef4;
+  --primary-ligth-2: #78dcf5;
+  --primary-ligth-1: #418df0;
+  --primary: #244fe6;
+  --primary-dark-1: #3622b9;
+  --primary-dark-2: #400694;
+  --primary-dark-3: #420d5f;
 
-  --even: #119b9e;
-  --even-ligth: #efffe9;
-  --even-dark: #033054;
-
-  --odd: #eb271a;
+  --secondary-light-3: #ffd676;
+  --secondary-light-2: #ffa90e;
+  --secondary-light-1: #fe7725;
+  --secondary: #ff0101;
+  --secondary-dark-1: #9f0228;
+  --secondary-dark-2: #730049;
+  --secondary-dark-3: #4f003f;
 
   /* grayscale */
   --glass: transparent;
   --glass-fume: rgba(00, 10, 22, 0.52);
 
   --black: #000;
-  --grey-1: #2c2c2c;
-  --grey-2: #4b4b4b;
-  --grey-3: #6a6a6a;
-  --grey-4: #898989;
-  --grey-5: #a8a8a8;
-  --grey-6: #c6c6c6;
-  --grey-7: #f2f2f2;
+  --grey-1: #2C1C32;
+  --grey-2: #4B4451;
+  --grey-3: #6A6670;
+  --grey-4: #89828F;
+  --grey-5: #A8A2AF;
+  --grey-6: #C6C0CE;
+  --grey-7: #E5E0ED;
   --white: #fff;
 
   /* user colors */

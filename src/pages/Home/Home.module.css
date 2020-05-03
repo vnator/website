@@ -15,7 +15,7 @@
   text-align: center;
   margin: var(--space-extra);
   text-shadow: var(--text-shadow-double);
-  color: var(--even-dark);
+  color: var(--primary-dark-3);
 }
 
 .list {
@@ -37,7 +37,7 @@
 }
 
 .card header {
-  color: var(--even-dark);
+  color: var(--primary-dark-3);
 }
 
 .icon {
