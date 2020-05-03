@@ -30,8 +30,8 @@
 }
 
 .logo {
+  width: 250px;
   height: 80px;
-  width: auto;
   transition: var(--transition);
 }
 
@@ -48,12 +48,10 @@
 }
 
 .bar {
+  cursor: pointer;
   transition: var(--transition-over-box);
-  display: block;
   width: var(--btn-width);
-  height: 4px;
-  border-radius: 0.1em;
-  background: var(--white);
+  fill: var(--white);
   margin: 5px 0;
 }
 
@@ -88,7 +86,6 @@
 }
 
 ._scrolled .bar {
-  height: 3px;
   margin: 4px 0;
 }
 
@@ -101,7 +98,6 @@
   .Header {
     --btn-width: 32px;
     --btn-height: 38.5px;
-    padding-left: var(--container-margin);
     box-sizing: border-box;
   }
 
@@ -110,7 +106,6 @@
   }
 
   .bar {
-    height: 3px;
     margin: 4px 0;
   }
 }

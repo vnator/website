@@ -17,10 +17,21 @@
 
 /* GOTHIC */
 @font-face {
-  font-family: 'Fette Caslon Gotisch';
-  src: url('../fonts/fette_caslon_gotisch-webfont.woff2') format('woff2'),
-       url('../fonts/fette_caslon_gotisch-webfont.woff') format('woff');
-  font-weight: var(--weight-regular);
-  font-style: var(--weight-regular);
+  font-family: 'Augusta';
+  src: url('../fonts/augusta-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/augusta-webfont.woff2') format('woff2'),
+       url('../fonts/augusta-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Augusta Shadow';
+  src: url('../fonts/augusta-shadow-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/augusta-shadow-webfont.woff2') format('woff2'),
+       url('../fonts/augusta-shadow-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }

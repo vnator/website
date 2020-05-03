@@ -2,7 +2,7 @@ import React from 'react';
 import Type from 'prop-types';
 import { useIntl } from 'react-intl';
 
-import { Svg, viewBoxType } from './Svg';
+import { Svg, viewBoxType } from '../Svg/Svg';
 
 const IconJavascript = (props) => {
   const { formatMessage } = useIntl();

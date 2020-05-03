@@ -1,5 +1,6 @@
 :root {
-  --font-gothic: 'Fette Caslon Gotisch';
+  --font-gothic: 'Augusta';
+  --font-gothic-shadow: 'Augusta Shadow';
   --font-title: 'Lato', sans-serif;
   --font-text: Helvetica, Arial, sans-serif;
   --code: monospace;
