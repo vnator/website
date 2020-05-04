@@ -47,7 +47,8 @@ const Home = () => {
         />
 
         <Card
-          title={formatMessage({ id: 'home.grid.architect.title' },
+          title={formatMessage(
+            { id: 'home.grid.architect.title' },
             {
               break: (str) => <span className={style.break}>{str}</span>,
             },
