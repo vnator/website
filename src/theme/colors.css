@@ -19,7 +19,7 @@
   /* grayscale */
   --glass: transparent;
   --glass-fume: rgba(00, 10, 22, 0.52);
-  --glass-smoke: rgba(0, 0, 0, 0.36);
+  --glass-smoke: rgba(0, 0, 0, 0.68);
 
   --black: #000;
   --grey-1: #2c1c32;

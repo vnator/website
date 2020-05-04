@@ -15,11 +15,11 @@
 }
 
 ._first {
-  background: var(--secondary) !important;
+  background: var(--secondary-light-1) !important;
 }
 
 ._second {
-  background: var(--primary-dark-2) !important;
+  background: var(--primary-dark-1) !important;
 }
 
 ._third {
@@ -41,8 +41,8 @@
   }
 
   .icon {
-    width: 72px;
-    height: 72px;
+    width: 58px;
+    height: 58px;
   }
 }
 
