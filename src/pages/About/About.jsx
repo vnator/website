@@ -14,8 +14,8 @@ import {
   IconSword,
 } from '../../components/Icon';
 
-import imgDesktop from '../../img/banner-about-desktop.jpg';
-import imgMobile from '../../img/banner-about-desktop.jpg';
+import imgDesktop from '../../img/banner-about-desktop.jpeg';
+import imgMobile from '../../img/banner-about-desktop.jpeg';
 
 import style from './About.module.css';
 

@@ -27,6 +27,7 @@
 
   /* line-height */
   --line-height-small: 0;
+  --line-height-medium: 1.2em;
   --line-height-base: 1.5em;
   --line-height-large: 2em;
 

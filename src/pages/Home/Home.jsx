@@ -7,15 +7,15 @@ import {
   IconTelescope,
 } from '../../components/Icon';
 
-import imgDesktop from '../../img/banner-home-desktop.jpeg';
+import imgDesktop from '../../img/banner-home-desktop.jpg';
 import imgMobile from '../../img/banner-home-mobile.jpeg';
-import { Paragraph } from '../../components/Paragraph/Paragraph';
+
 import { ROLE } from '../../constants/elementAttr';
-import { Title } from '../../components/Title/Title';
 import { Banner } from '../../components/Banner/Banner';
 import { BANNER_STATUS } from '../../constants/banner';
 
 import style from './Home.module.css';
+import { Card } from '../../components/Card/Card';
 
 const Home = () => {
   const { formatMessage } = useIntl();
@@ -29,46 +29,45 @@ const Home = () => {
         white
       />
       <main role={ROLE.MAIN} className={style.grid}>
-        <header className={style.header}>
-          <Title>{formatMessage({ id: 'home.grid.title' })}</Title>
-        </header>
-        <div className={style.list}>
-          <article className={style.card}>
-            <header>
-              <Title level={3}>
-                {formatMessage({ id: 'home.grid.analyze.title' })}
-              </Title>
-              <IconTelescope className={style.icon} />
-            </header>
-            <Paragraph>
-              {formatMessage({ id: 'home.grid.analyze.paragraph' })}
-            </Paragraph>
-          </article>
+        <Card
+          title={formatMessage(
+            { id: 'home.grid.analyze.title' },
+            {
+              break: (str) => <span className={style.break}>{str}</span>,
+            },
+          )}
+          content={formatMessage(
+            { id: 'home.grid.analyze.paragraph' },
+            {
+              break: (str) => <span className={style.break}>{str}</span>,
+            },
+          )}
+          icon={<IconTelescope className={style.icon} />}
+          className={style._first}
+        />
 
-          <article className={style.card}>
-            <header>
-              <Title level={3}>
-                {formatMessage({ id: 'home.grid.architect.title' })}
-              </Title>
-              <IconSketch className={style.icon} />
-            </header>
-            <Paragraph>
-              {formatMessage({ id: 'home.grid.architect.paragraph' })}
-            </Paragraph>
-          </article>
+        <Card
+          title={formatMessage({ id: 'home.grid.architect.title' },
+            {
+              break: (str) => <span className={style.break}>{str}</span>,
+            },
+          )}
+          content={formatMessage({ id: 'home.grid.architect.paragraph' })}
+          icon={<IconSketch className={style.icon} />}
+          className={style._second}
+        />
 
-          <article className={style.card}>
-            <header>
-              <Title level={3}>
-                {formatMessage({ id: 'home.grid.development.title' })}
-              </Title>
-              <IconCarpenter className={style.icon} />
-            </header>
-            <Paragraph>
-              {formatMessage({ id: 'home.grid.development.paragraph' })}
-            </Paragraph>
-          </article>
-        </div>
+        <Card
+          title={formatMessage(
+            { id: 'home.grid.development.title' },
+            {
+              break: (str) => <span className={style.break}>{str}</span>,
+            },
+          )}
+          content={formatMessage({ id: 'home.grid.development.paragraph' })}
+          icon={<IconCarpenter className={style.icon} />}
+          className={style._third}
+        />
       </main>
     </div>
   );

@@ -79,7 +79,7 @@
   width: var(--width);
   box-sizing: border-box;
   padding: 20px;
-  color: var(--primary-ligth-3);
+  color: var(--primary-light-3);
   opacity: 0.6;
   text-align: right;
 }

@@ -2,20 +2,11 @@
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
-  padding-bottom: calc(var(--space-extra) * 4);
+  padding-bottom: var(--space-small);
 }
 
-.grid {
-  box-sizing: border-box;
-  width: var(--width);
-  margin: var(--space-extra) var(--container-margin);
-}
-
-.header {
-  text-align: center;
-  margin: var(--space-extra);
-  text-shadow: var(--text-shadow-double);
-  color: var(--primary-dark-3);
+.break {
+  display: block;
 }
 
 .list {
@@ -23,51 +14,40 @@
   justify-content: space-between;
 }
 
-.card {
-  width: 30%;
-  max-width: 340px;
-  text-align: center;
-  border: 1px solid var(--grey-7);
-  padding: var(--space-large);
-  box-sizing: border-box;
-  border-radius: var(--radius-base);
-  line-height: var(--line-height-large);
-  color: var(--grey-5);
-  box-shadow: var(--shadow-card);
+._first {
+  background: var(--secondary-light-2) !important;
 }
 
-.card header {
-  color: var(--primary-dark-3);
+._second {
+  background: var(--primary-dark-2) !important;
+}
+
+._third {
+  background: var(--primary-light-1) !important;
 }
 
 .icon {
-  width: 86px;
-  height: 86px;
+  width: 96px;
+  height: 96px;
   padding: var(--space-large) 0;
+  fill: var(--glass-smoke);
   position: relative;
 }
 
 @media screen and (max-width: 61.25em) {
+
   .Home {
-    padding-bottom: var(--space-extra);
+    padding-bottom: var(--space-small);
   }
 
-  .list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    margin-bottom: var(--space-large);
-    width: 100%;
-    max-width: 80vw;
+  .icon {
+    width: 72px;
+    height: 72px;
   }
 }
 
 @media screen and (min-width: 100em) {
-  .grid {
+  .container {
     width: var(--width-full);
-    margin-left: auto;
-    margin-right: auto;
   }
 }
