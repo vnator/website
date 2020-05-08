@@ -43,6 +43,11 @@ const intl = createIntl({
   messages: parseMessages(messages[locale]),
 });
 
+console.log(`
+  VNATOR
+   - Software crafters
+`);
+
 ReactDOM.render(
   <RawIntlProvider value={intl}>
     <Router>
