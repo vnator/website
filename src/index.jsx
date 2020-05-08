@@ -9,6 +9,7 @@ import { Main } from './components/Main/Main';
 import * as serviceWorker from './config/serviceWorker';
 import './theme/index.css';
 import { parseMessages } from './config/parseMessages';
+import { LANG } from './constants/lang';
 
 if (!Intl.PluralRules) {
   require('@formatjs/intl-pluralrules/polyfill');
@@ -28,11 +29,14 @@ if (!Intl.DisplayNames) {
   require('@formatjs/intl-displaynames/dist/locale-data/en'); // Add locale data for de
 }
 
-const locale =
+const browserLocale =
   navigator.language ||
   navigator.userLanguage ||
-  (navigator.languages && navigator.languages[0]) ||
-  'pt-BR';
+  (navigator.languages && navigator.languages[0]);
+
+const locale = Object.values(LANG).includes(browserLocale)
+  ? browserLocale
+  : LANG.EN;
 
 const intl = createIntl({
   locale,
