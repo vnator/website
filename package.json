@@ -50,7 +50,7 @@
     "eslint-plugin-react": "^7.19.0",
     "exact": "^0.8.0",
     "prettier": "^2.0.5",
-    "stylelint": "^13.3.3",
+    "stylelint": "^13.7.0",
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-declaration-use-variable": "^1.7.2",
     "stylelint-prettier": "^1.1.1"
