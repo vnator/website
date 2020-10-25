@@ -5,7 +5,7 @@
   "dependencies": {
     "@formatjs/intl-pluralrules": "^1.5.7",
     "@formatjs/intl-relativetimeformat": "^4.5.14",
-    "intl-messageformat-parser": "^5.0.2",
+    "intl-messageformat-parser": "^6.0.11",
     "intl-pluralrules": "^1.2.0",
     "ramda": "^0.27.0",
     "react": "^16.13.1",
