@@ -1,6 +1,6 @@
 const home_enUS = {
   banner: {
-    title: 'Software Crafters',
+    title: 'Software {carambolas}',
     paragraph:
       'Analysis, Architecture and Development of specialized web applications.',
   },

@@ -66,7 +66,7 @@ let About = () => {
                     <Link
                       role={ROLE.MENU_ITEM}
                       rel={formatMessage({ id: 'sidebar.tech.label' })}
-                      to={routes.tech}>
+                      to={routes.stack}>
                       {str}
                     </Link>
                   ),

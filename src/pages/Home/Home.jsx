@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className={style.Home}>
       <Banner
-        title={formatMessage({ id: 'home.banner.title' })}
+        title={formatMessage({ id: 'home.banner.title' }, { carambolas: 'Quadradas never die'})}
         content={formatMessage({ id: 'home.banner.paragraph' })}
         img={{ desktop: imgDesktop, mobile: imgMobile }}
         status={BANNER_STATUS.END}

@@ -15,7 +15,7 @@
 }
 
 ._first {
-  background: var(--secondary-light-1) !important;
+  background: var(--primary-dark-2) !important;
 }
 
 ._second {
@@ -23,7 +23,7 @@
 }
 
 ._third {
-  background: var(--primary-light-1) !important;
+  background: var(--primary) !important;
 }
 
 .icon {

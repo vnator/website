@@ -1,6 +1,6 @@
 const home_ptBR = {
   banner: {
-    title: 'Software Crafters',
+    title: 'Software {carambolas}',
     paragraph:
       'Análise, Arquitetura e Desenvolvimento de aplicações web especializadas.',
   },

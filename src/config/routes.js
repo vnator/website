@@ -1,7 +1,7 @@
 const routes = Object.freeze({
   home: '/',
   about: '/about',
-  tech: '/tech',
+  stack: '/our-technology-stack',
   contact: '/contact',
 });
 

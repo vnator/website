@@ -44,7 +44,7 @@ let Sidebar = ({ closeSidebar, open, active }) => {
             <Link
               role={ROLE.MENU_ITEM}
               rel={formatMessage({ id: 'sidebar.tech.label' })}
-              to={routes.tech}>
+              to={routes.stack}>
               {formatMessage({ id: 'sidebar.tech.label' })}
               <span className={style.description}>
                 {formatMessage({ id: 'sidebar.tech.description' })}

@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@formatjs/intl-pluralrules": "^1.5.7",
-    "@formatjs/intl-relativetimeformat": "^4.5.14",
+    "@formatjs/intl-displaynames": "^1.2.9",
+    "@formatjs/intl-pluralrules": "^1.5.0",
+    "@formatjs/intl-relativetimeformat": "^4.5.4",
     "intl-messageformat-parser": "^5.0.2",
     "intl-pluralrules": "^1.2.0",
     "ramda": "^0.27.0",
@@ -15,16 +16,17 @@
     "react-router-dom": "^5.1.2",
     "react-router-scroll-top": "^0.2.1",
     "react-scripts": "3.4.1",
-    "react-use-scroll": "^1.0.3"
+    "react-use-scroll": "^1.0.3",
+    "rewire": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "stylelint": "stylelint src/**/*.css",
-    "eslint": "eslint -c .eslintrc --ignore-path .eslintignore '**/*.{js,jsx}' --quiet",
-    "eslint:fix": "eslint -c .eslintrc --ext .js --ext .jsx --ignore-path .eslintignore --fix '**/*.{js,jsx}' --quiet"
+    "stylelint": "npx stylelint src/**/*.css",
+    "eslint": "npx eslint -c .eslintrc --ignore-path .eslintignore '**/*.{js,jsx}' --quiet",
+    "eslint:fix": "npx eslint -c .eslintrc --ext .js --ext .jsx --ignore-path .eslintignore --fix '**/*.{js,jsx}' --quiet"
   },
   "eslintConfig": {
     "extends": "react-app"
