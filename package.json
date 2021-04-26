@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@formatjs/intl-displaynames": "^1.2.9",
-    "@formatjs/intl-pluralrules": "^1.5.0",
+    "@formatjs/intl-pluralrules": "^4.0.15",
     "@formatjs/intl-relativetimeformat": "^4.5.4",
     "intl-messageformat-parser": "^5.0.2",
     "intl-pluralrules": "^1.2.0",
