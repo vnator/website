@@ -40,7 +40,7 @@ const about_ptBR = {
     faith: {
       title: 'Fé',
       paragraph:
-        'Cristo Nos matem seguindo em frente independente da dificuldade, acreditamos que o importante é a honestidade. Mesmo que esse seja o caminho mais difícil vamos segui-lo se for o caminho correto, podemos não entender os planos de Deus, mas compreendemos seu amor, por isso nos mantemos fieis em Cristo.',
+        'Cristo nos mantém seguindo em frente independente da dificuldade, acreditamos que o importante é a honestidade. Mesmo que esse seja o caminho mais difícil vamos segui-lo se for o caminho correto, podemos não entender os planos de Deus, mas compreendemos seu amor, por isso nos mantemos fieis em Cristo.',
     },
   },
 };
